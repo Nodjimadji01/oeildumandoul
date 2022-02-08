@@ -1,14 +1,18 @@
 import { divide } from 'lodash';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./app.css";
+import Header from './Header';
 function Home() {
     return (
-        <div>
-            <h1>Acceuille</h1>
+        <div className='home' >
+            <Header></Header>
         </div>
+
+
     );
 }
-export default Home;
+//export default Home;
 if(document.getElementById('home')){
     ReactDOM.render(<Home/>,document.getElementById('home'));
 }

@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Oeil du mandoul </title>
     <script src="{{ asset('js/app.js') }}" defer> </script>
+   <link rel="stylesheet" href="resources/css/app.css">
 </head>
 <body>
-    <div id="hello-react"></div>
-    <div id="home"></div>
 
+    <div id="home"></div>
 </body>
 
 </html>
