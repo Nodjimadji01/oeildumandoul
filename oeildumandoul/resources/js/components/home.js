@@ -8,11 +8,8 @@ function Home() {
         <div className='home' >
             <Header></Header>
         </div>
-
-
     );
 }
-//export default Home;
 if(document.getElementById('home')){
     ReactDOM.render(<Home/>,document.getElementById('home'));
 }
