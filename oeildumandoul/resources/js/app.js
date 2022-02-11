@@ -1,2 +1,4 @@
 require('./bootstrap');
-require ('./components/home');
+require ('./pages/home');
+require ('./pages/Notfound');
+

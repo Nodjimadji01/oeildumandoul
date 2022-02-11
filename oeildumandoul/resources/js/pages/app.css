@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 *{
-    background-color: rgba(0, 0, 0, 0.966);
+
     font-family: 'Poppins' sans-serif;
     margin: 0%;
 }
+ .body{
+    text-align: center;
+    background-color: rgba(17, 17, 17, 0.76);
+}
 .header
 {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(7, 7, 7);
     margin-top: 0%;
     margin-right: 0%;
     height: 100px;
@@ -53,5 +57,14 @@
     padding: 5px;
     color: white;
 }
-
-
+.p {
+    color: white;
+}
+.nav{
+    color: white;
+}
+.footer{
+    background-color: red;
+    color: white;
+    height: 90px;
+}

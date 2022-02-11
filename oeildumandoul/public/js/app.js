@@ -2054,6 +2054,20 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./resources/js/app.js":
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+__webpack_require__(/*! ./pages/home */ "./resources/js/pages/home.js");
+
+__webpack_require__(/*! ./pages/Notfound */ "./resources/js/pages/Notfound.js");
+
+/***/ }),
+
 /***/ "./resources/js/bootstrap.js":
 /*!***********************************!*\
   !*** ./resources/js/bootstrap.js ***!
@@ -2096,35 +2110,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navigation */ "./resources/js/components/Navigation.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
 var Header = function Header() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("header", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
     className: "header",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("a", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
           className: "nomJournal",
-          children: ["L'oeil", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+          children: ["L'oeil", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
             style: {
               color: 'blue'
             },
             children: "du"
           }), "Mandoul"]
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
           className: "conneter",
           children: "Se connecter"
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("a", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
           className: "abonner",
           children: "ABONNEZ-VOUS"
         })
-      })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_Navigation__WEBPACK_IMPORTED_MODULE_0__["default"], {})]
     })
   });
 };
@@ -2133,10 +2149,95 @@ var Header = function Header() {
 
 /***/ }),
 
-/***/ "./resources/js/components/home.js":
-/*!*****************************************!*\
-  !*** ./resources/js/components/home.js ***!
-  \*****************************************/
+/***/ "./resources/js/components/Navigation.js":
+/*!***********************************************!*\
+  !*** ./resources/js/components/Navigation.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var Navigation = function Navigation() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("di", {
+    className: "nav",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("nav", {
+      children: "A LA UNE"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("nav", {
+      children: "A LA UNE"
+    })]
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navigation);
+
+/***/ }),
+
+/***/ "./resources/js/components/footer.js":
+/*!*******************************************!*\
+  !*** ./resources/js/components/footer.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+var Footer = function Footer() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    className: "footer",
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+      children: "Pied du page"
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Notfound.js":
+/*!****************************************!*\
+  !*** ./resources/js/pages/Notfound.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+var NotFound = function NotFound() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+      children: "page non trouv\xE9"
+    })
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFound);
+
+/***/ }),
+
+/***/ "./resources/js/pages/home.js":
+/*!************************************!*\
+  !*** ./resources/js/pages/home.js ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2145,9 +2246,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.css */ "./resources/js/components/app.css");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Header */ "./resources/js/components/Header.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.css */ "./resources/js/pages/app.css");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header */ "./resources/js/components/Header.js");
+/* harmony import */ var _Notfound__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Notfound */ "./resources/js/pages/Notfound.js");
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/footer */ "./resources/js/components/footer.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
 
 
 
@@ -2156,22 +2262,73 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Home() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
     className: "home",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {})
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+      className: "body",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
+        className: "p",
+        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      })]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_6__["default"], {})]
   });
 }
 
 if (document.getElementById('home')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(Home, {}), document.getElementById('home'));
+  react_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(Home, {}), document.getElementById('home'));
 }
 
 /***/ }),
 
-/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/app.css":
-/*!****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/app.css ***!
-  \****************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/pages/app.css":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/pages/app.css ***!
+  \***********************************************************************************************************************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2186,7 +2343,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\n    background-color: rgba(0, 0, 0, 0.966);\n    font-family: 'Poppins' sans-serif;\n    margin: 0%;\n}\n.header\n{\n    background-color: rgb(0, 0, 0);\n    margin-top: 0%;\n    margin-right: 0%;\n    height: 100px;\n    left: 0px;\n    right: Opx;\n\n}\n.nomJournal\n{\n    position: relative;\n    font-weight: bold;\n    text-decoration: none;\n    font-size: 1.5rem;\n    font-family: \"montserrat-bold\", sans-serif;\n    left: 601px;\n    top: 10px;\n    color: white;\n}\n.conneter\n{\n    font-weight: bold;\n    font-family: \"montserrat-bold\", sans-serif;\n    position: absolute;\n    width: 100px;\n    left: 1090px;\n    text-decoration: none;\n    font-size: 0.9rem;\n    top: 10px;\n    padding: 5px;\n    color: white;\n}\n.abonner\n{\n    font-weight: bold;\n    background-color:  rgba(153, 153, 153, 0.795);\n    border-radius: 20px;\n    font-family: \"montserrat-bold\", sans-serif;\n    position: absolute;\n    width: 150px;\n    right: 3px;\n    text-align: center;\n    text-decoration: none;\n    font-size: 0.9rem;\n    top: 10px;\n    padding: 5px;\n    color: white;\n}\n\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\n\n    font-family: 'Poppins' sans-serif;\n    margin: 0%;\n}\n .body{\n    text-align: center;\n    background-color: rgba(17, 17, 17, 0.76);\n}\n.header\n{\n    background-color: rgb(7, 7, 7);\n    margin-top: 0%;\n    margin-right: 0%;\n    height: 100px;\n    left: 0px;\n    right: Opx;\n}\n.nomJournal\n{\n    position: relative;\n    font-weight: bold;\n    text-decoration: none;\n    font-size: 1.5rem;\n    font-family: \"montserrat-bold\", sans-serif;\n    left: 601px;\n    top: 10px;\n    color: white;\n}\n.conneter\n{\n    font-weight: bold;\n    font-family: \"montserrat-bold\", sans-serif;\n    position: absolute;\n    width: 100px;\n    left: 1090px;\n    text-decoration: none;\n    font-size: 0.9rem;\n    top: 10px;\n    padding: 5px;\n    color: white;\n}\n.abonner\n{\n    font-weight: bold;\n    background-color:  rgba(153, 153, 153, 0.795);\n    border-radius: 20px;\n    font-family: \"montserrat-bold\", sans-serif;\n    position: absolute;\n    width: 150px;\n    right: 3px;\n    text-align: center;\n    text-decoration: none;\n    font-size: 0.9rem;\n    top: 10px;\n    padding: 5px;\n    color: white;\n}\n.p {\n    color: white;\n}\n.nav{\n    color: white;\n}\n.footer{\n    background-color: red;\n    color: white;\n    height: 90px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -19477,6 +19634,19 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
   // Check for `exports` after `define` in case a build optimizer adds it.
   else {}
 }.call(this));
+
+
+/***/ }),
+
+/***/ "./resources/css/app.css":
+/*!*******************************!*\
+  !*** ./resources/css/app.css ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
 
 
 /***/ }),
@@ -50743,10 +50913,10 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./resources/js/components/app.css":
-/*!*****************************************!*\
-  !*** ./resources/js/components/app.css ***!
-  \*****************************************/
+/***/ "./resources/js/pages/app.css":
+/*!************************************!*\
+  !*** ./resources/js/pages/app.css ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -50756,7 +50926,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./app.css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/components/app.css");
+/* harmony import */ var _node_modules_laravel_mix_node_modules_css_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_1_node_modules_postcss_loader_dist_cjs_js_ruleSet_1_rules_6_oneOf_1_use_2_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!../../../node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./app.css */ "./node_modules/laravel-mix/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].oneOf[1].use[2]!./resources/js/pages/app.css");
 
             
 
@@ -51092,7 +51262,42 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/chunk loaded */
+/******/ 	(() => {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+/******/ 			if(chunkIds) {
+/******/ 				priority = priority || 0;
+/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
+/******/ 				deferred[i] = [chunkIds, fn, priority];
+/******/ 				return;
+/******/ 			}
+/******/ 			var notFulfilled = Infinity;
+/******/ 			for (var i = 0; i < deferred.length; i++) {
+/******/ 				var [chunkIds, fn, priority] = deferred[i];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+/******/ 						chunkIds.splice(j--, 1);
+/******/ 					} else {
+/******/ 						fulfilled = false;
+/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+/******/ 					}
+/******/ 				}
+/******/ 				if(fulfilled) {
+/******/ 					deferred.splice(i--, 1)
+/******/ 					var r = fn();
+/******/ 					if (r !== undefined) result = r;
+/******/ 				}
+/******/ 			}
+/******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
 /******/ 		// getDefaultExport function for compatibility with non-harmony modules
@@ -51154,17 +51359,68 @@ module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"P
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"/js/app": 0,
+/******/ 			"css/app": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 			return __webpack_require__.O(result);
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	})();
+/******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-__webpack_require__(/*! ./components/home */ "./resources/js/components/home.js");
-})();
-
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
+/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/css/app.css")))
+/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
+/******/ 	
 /******/ })()
 ;
