@@ -1,6 +1,7 @@
 import { divide } from 'lodash';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Carousel} from '3d-react-carousal';
 import "./app.css";
 import Header from '../components/Header';
 import NotFound from './Notfound';
@@ -11,17 +12,6 @@ function Home() {
         <div className='home' >
             <Header></Header>
         
-        <div className='carroussel'>
-            <form>
-            <input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
-            <input type="radio" name="fancy" value="hearts" id="hearts" />
-            <input type="radio" name="fancy" value="spades" id="spades" />
-            <input type="radio" name="fancy" value="diamonds" id="diamonds" />			
-            <label for="clubs">&#9827; Clubs</label><label for="hearts">&#9829; Hearts</label><label for="spades">&#9824; Spades</label><label for="diamonds">&#9830; Diamonds</label>
-
-            <div class="keys">Use left and right keys to navigate</div>
-            </form>
-        </div>
 
             <div className="body">
                     <p className="p">
