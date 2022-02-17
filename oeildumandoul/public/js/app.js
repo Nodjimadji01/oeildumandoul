@@ -2165,14 +2165,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _pages_app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pages/app.css */ "./resources/js/pages/app.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
 
 var Navigation = function Navigation() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("di", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("di", {
     className: "nav",
+<<<<<<< HEAD
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("nav", {
       children: "A la une"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("nav", {
@@ -2181,6 +2184,26 @@ var Navigation = function Navigation() {
       children: "Sport"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("nav", {
       children: "Education"
+=======
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+      className: "barre",
+      children: "A LA UNE"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+      className: "barre",
+      children: "POLITIQUE"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+      className: "barre",
+      children: "EDUCATION"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+      className: "barre",
+      children: "SOCIETE"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+      className: "barre",
+      children: "SPORT"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("nav", {
+      className: "barre",
+      children: "FINANCE"
+>>>>>>> ba91af3d7451bb8971cbbf5db5d5b0de046ec353
     })]
   });
 };
@@ -2227,12 +2250,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 var NotFound = function NotFound() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("p", {
       children: "page non trouv\xE9"
     })
   });
@@ -2275,42 +2300,148 @@ function Home() {
     className: "home",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
       className: "body",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+        "class": "container",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i1",
+          name: "images",
+          checked: true
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i2",
+          name: "images"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i3",
+          name: "images"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i4",
+          name: "images"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i5",
+          name: "images"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "one",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://www.globalpartnership.org/sites/default/files/docs/sierra-leone-power-great-teaching-times-crisis_0.jpg",
+            id: "LastClone"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i5",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "two",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://www.eurelien.fr/sites/default/files/styles/638x426/public/actu-formation-en-ligne.jpg?itok=HMBOHEVT",
+            alt: "im1"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i1",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i3",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "three",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://static.wixstatic.com/media/314376_eebbe32986f44d16b6014526c1b637c7~mv2.jpg/v1/fill/w_1000,h_491,al_c,q_90,usm_0.66_1.00_0.01/314376_eebbe32986f44d16b6014526c1b637c7~mv2.jpg",
+            alt: ""
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "four",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://ichef.bbci.co.uk/news/640/cpsprodpb/3EC0/production/_118146061_7326abc7-29d3-4211-827e-60ba04b7dac0.jpg",
+            alt: ""
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i3",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i5",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "five",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://media.dogfinance.com/files/articles/quel-impact-du-digital-sur-les-metiers-de-la-finance_b.jpg",
+            alt: ""
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i1",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          id: "nav_slide",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i1",
+            "class": "dots",
+            id: "dot1"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i2",
+            "class": "dots",
+            id: "dot2"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i3",
+            "class": "dots",
+            id: "dot3"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i4",
+            "class": "dots",
+            id: "dot4"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i5",
+            "class": "dots",
+            id: "dot5"
+          })]
+        })]
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
         className: "p",
         children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
@@ -2351,8 +2482,13 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);"]);
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Just+Another+Hand);"]);
 // Module
+<<<<<<< HEAD
 ___CSS_LOADER_EXPORT___.push([module.id, "*{\n\n    font-family: 'Poppins' sans-serif;\n    margin: 0%;\n}\n .body{\n    text-align: center;\n    background-color: rgba(17, 17, 17, 0.76);\n}\n.header\n{\n    background-color: rgb(7, 7, 7);\n    margin-top: 0%;\n    margin-right: 0%;\n    height: 100px;\n    left: 0px;\n    right: Opx;\n}\n.nomJournal\n{\n    position: relative;\n    font-weight: bold;\n    text-decoration: none;\n    font-size: 1.5rem;\n    font-family: \"montserrat-bold\", sans-serif;\n    left: 601px;\n    top: 10px;\n    color: white;\n}\n.conneter\n{\n    font-weight: bold;\n    font-family: \"montserrat-bold\", sans-serif;\n    position: absolute;\n    width: 100px;\n    left: 1090px;\n    text-decoration: none;\n    font-size: 0.9rem;\n    top: 10px;\n    padding: 5px;\n    color: white;\n}\n.abonner\n{\n    font-weight: bold;\n    background-color:  rgba(153, 153, 153, 0.795);\n    border-radius: 20px;\n    font-family: \"montserrat-bold\", sans-serif;\n    position: absolute;\n    width: 150px;\n    right: 3px;\n    text-align: center;\n    text-decoration: none;\n    font-size: 0.9rem;\n    top: 10px;\n    padding: 5px;\n    color: white;\n}\n.p {\n    color: white;\n}\n.nav{\n    margin: 26px O;\n    display: flex;\n    color: white;\n    font-weight: bold;\n    font-size: 1.rem;\n    margin-right: 10px;\n    padding: 10px;\n    position: relative;\n    font-family: \"montserrat-bold\", sans-serif;\n\n}\n\n.footer{\n    background-color: red;\n    color: white;\n    height: 90px;\n}\n", ""]);
+=======
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n\r\n    font-family: 'Poppins' sans-serif;\r\n    margin: 0%;\r\n}\r\n .body{\r\n    text-align: center;\r\n    background-color: rgba(17, 17, 17, 0.76);\r\n}\r\n.header\r\n{\r\n    background-color: rgb(7, 7, 7);\r\n    margin-top: 0%;\r\n    margin-right: 0%;\r\n    height: 100px;\r\n    left: 0px;\r\n    right: Opx;\r\n}\r\n.nomJournal\r\n{\r\n    position: relative;\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n    font-size: 1.5rem;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    left: 601px;\r\n    top: 10px;\r\n    color: white;\r\n}\r\n.conneter\r\n{\r\n    font-weight: bold;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    position: absolute;\r\n    width: 100px;\r\n    left: 1090px;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.abonner\r\n{\r\n    font-weight: bold;\r\n    background-color:  rgba(153, 153, 153, 0.795);\r\n    border-radius: 20px;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    position: absolute;\r\n    width: 150px;\r\n    right: 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.p {\r\n    color: white;\r\n    text-align: justify;\r\n    margin-left: 10%;\r\n    margin-right: 10%;\r\n}\r\n.nav{\r\n    color: white;\r\n    display: flex;\r\n  /*  flex-direction: row-reverse;*/\r\n    justify-content: center;\r\n    margin-right: 5%;\r\n    text-align: right;\r\n}\r\n/**Navigation link**/\r\n.barre{\r\n    margin-right: 3%;\r\n}\r\n.footer{\r\n    background-color: red;\r\n    color: white;\r\n    height: 90px;\r\n}\r\n\r\n/** Caroussel css begin herer*/\r\n\r\nbody{\r\n\t\twidth: 100%;\r\n\t\theight: 100%;\t\r\n\t\tmargin: 0;\r\n\t\t/*font-family: 'Just Another Hand', cursive;*/\r\n\t\toverflow-X: hidden;/* optional */\r\n\t}\r\n    #i1, #i2, #i3, #i4, #i5{ display: none;}\r\n    .container{\r\n\t\tmargin: 0 auto;\r\n\t\tmargin-top: 0px;\r\n\t\tposition: relative;\r\n\t\twidth: 70%;\r\n\t\theight: 0;\r\n\t\tpadding-bottom: 38%;\r\n\t  -webkit-user-select: none;\r\n\t     -moz-user-select: none;\r\n\t      -ms-user-select: none;\r\n\t          user-select: none;\r\n\t\tbackground-color: #1c1c1c;\r\n\t\tborder: solid 10px #616161;\r\n\t\tborder-radius:10px ; \r\n\t}\r\n\r\n\t.container .slide_img{\r\n\t\tposition: absolute;\r\n\t\twidth: 100%;;\r\n\t\theight: 100%;\r\n\t}\r\n\t.container .slide_img img{\r\n\t\twidth: inherit;\r\n\t\theight: inherit;\r\n\t}\r\n\r\n\t .prev, .next{\r\n\t\twidth: 12%;\r\n\t\theight: inherit;\r\n\t\tposition: absolute;\r\n\t\ttop:0; \r\n\t\tbackground-color: rgba(88, 88, 88,.2);\r\n\t\tcolor:rgba(244, 244, 244,.9);\r\n\t\tz-index: 99;\r\n\t\ttransition: .45s;\r\n\t\tcursor: pointer;\r\n\t\ttext-align: center;\r\n\t}\r\n\r\n\t.next{right:0;}\r\n\t.prev{left:0;}\r\n\r\n\tlabel span{\r\n\t\tposition: absolute;\r\n\t\tfont-size: 100pt;\r\n\t\ttop: 50%;\r\n\t \ttransform: translateY(-50%);\r\n\t}\r\n\r\n\t.prev:hover, .next:hover{\r\n\t\ttransition: .3s;\r\n\t\tbackground-color: rgba(88, 88, 89,.8);\r\n\t\tcolor: #ffffff; \r\n\t}\r\n\r\n.container #nav_slide{\r\n\twidth: 100%;\r\n\tbottom: 12%;\r\n\theight: 11px;\r\n\tposition: absolute;\r\n\ttext-align: center;\r\n\tz-index: 99;\r\n\tcursor: default;\r\n}\r\n\r\n#nav_slide .dots{\r\n\ttop: -5px;\r\n\twidth: 18px;\r\n\theight: 18px;\r\n\tmargin: 0 4px;\r\n\tposition: relative;\r\n\tborder-radius: 100%;\r\n\tdisplay: inline-block;\r\n\tbackground-color: rgba(0, 0, 0, 0.6);\r\n\ttransition: .4s;\r\n}\r\n\r\n#nav_slide .dots:hover {\r\n\tcursor: pointer;\r\n\tbackground-color: rgba(255, 255, 255, 0.9);\r\n\ttransition: .25s\r\n}\r\n\r\n.slide_img{z-index: -1;}\r\n\r\n\t#i1:checked ~ #one  ,\r\n\t#i2:checked ~ #two  ,\r\n\t#i3:checked ~ #three,\r\n\t#i4:checked ~ #four ,\r\n\t#i5:checked ~ #five \r\n\t{z-index: 9; -webkit-animation: scroll 1s ease-in-out; animation: scroll 1s ease-in-out;}\r\n\r\n\t#i1:checked  ~  #nav_slide #dot1,\r\n\t#i2:checked  ~  #nav_slide #dot2,\r\n\t#i3:checked  ~  #nav_slide #dot3,\r\n\t#i4:checked  ~  #nav_slide #dot4,\r\n\t#i5:checked  ~  #nav_slide #dot5\r\n\t{ background-color: rgba(255,255,255,.9);}\r\n\r\n@-webkit-keyframes scroll{\r\n\t0%{\topacity:.4;}\r\n\t100%{opacity:1;}\r\n}\r\n\r\n@keyframes scroll{\r\n\t0%{\topacity:.4;}\r\n\t100%{opacity:1;}\r\n}\t\t\r\n\r\n@media screen and (max-width: 685px){\r\n\t.container{\r\n\t\tborder: none;\r\n\t\twidth: 100%;\r\n\t\theight: 0;\r\n\t\tpadding-bottom: 55%; \r\n\t}\t\r\n\t\r\n\tlabel span { font-size: 50pt; }\r\n\t\r\n\t.prev, .next{\r\n\t\twidth: 15%;\r\n\t}\t\r\n\t#nav_slide .dots{\r\n\t\twidth: 12px;\r\n\t\theight: 12px;\r\n\t}\r\n}\r\n@media screen  and(min-width: 970px){\r\n\t.me{ display: none;}\r\n}", ""]);
+>>>>>>> ba91af3d7451bb8971cbbf5db5d5b0de046ec353
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -51238,7 +51374,7 @@ module.exports = function (list, options) {
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
+module.exports = JSON.parse('{"_args":[["axios@0.21.4","C:\\\\Users\\\\nodji\\\\OneDrive\\\\Documents\\\\GitHub\\\\oeildumandoul\\\\oeildumandoul"]],"_development":true,"_from":"axios@0.21.4","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"axios@0.21.4","name":"axios","escapedName":"axios","rawSpec":"0.21.4","saveSpec":null,"fetchSpec":"0.21.4"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_spec":"0.21.4","_where":"C:\\\\Users\\\\nodji\\\\OneDrive\\\\Documents\\\\GitHub\\\\oeildumandoul\\\\oeildumandoul","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
 
 /***/ })
 

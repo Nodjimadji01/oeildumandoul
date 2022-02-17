@@ -1,6 +1,6 @@
-import React from "react";
-
-const Navigation = () => {
+ import React from "react";
+ import "../pages/app.css";
+ const Navigation = () => {
     return (
         <di className= "nav">
            <nav>
@@ -16,9 +16,9 @@ const Navigation = () => {
                Education
            </nav>
 
-        </di>
+         </di>
 
-    );
-}
+   );
+ }
 
-export default Navigation;
+ export default Navigation;
