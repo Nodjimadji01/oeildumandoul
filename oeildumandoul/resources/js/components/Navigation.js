@@ -4,10 +4,16 @@ const Navigation = () => {
     return (
         <di className= "nav">
            <nav>
-               A LA UNE
+               A la une
            </nav>
            <nav>
-               A LA UNE
+               Finance
+           </nav>
+           <nav>
+               Sport
+           </nav>
+           <nav>
+               Education
            </nav>
 
         </di>

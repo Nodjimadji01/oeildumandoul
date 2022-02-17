@@ -1,11 +1,14 @@
 import { divide } from 'lodash';
 import React from 'react';
+import MediaQuery from 'react-responsive';
 import ReactDOM from 'react-dom';
 import "./app.css";
 import Header from '../components/Header';
 import NotFound from './Notfound';
 import Footer from '../components/footer';
 function Home() {
+
+
 
     return (
         <div className='home' >
@@ -62,6 +65,7 @@ function Home() {
             </div>
             <Footer></Footer>
         </div>
+
     );
 }
 if(document.getElementById('home')){
