@@ -1,17 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/3d-react-carousal/dist/index.js":
-/*!******************************************************!*\
-  !*** ./node_modules/3d-react-carousal/dist/index.js ***!
-  \******************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-/*! For license information please see index.js.LICENSE.txt */
-!function(e,t){ true?module.exports=t(__webpack_require__(/*! react */ "./node_modules/react/index.js")):0}(self,(function(e){return(()=>{var t={315:(e,t,r)=>{"use strict";r.d(t,{Z:()=>o});var n=r(879),i=r.n(n)()((function(e){return e[1]}));i.push([e.id,"@keyframes heartbeat{0%{transform:scale(0)}25%{transform:scale(1.2)}50%{transform:scale(1)}75%{transform:scale(1.2)}100%{transform:scale(1)}}.react-3d-carousel{position:relative}.react-3d-carousel .slider-container{position:absolute;left:50%;top:0%;width:90%;margin:-0px auto 0px -45%}.react-3d-carousel .slider-container .slider-content{position:relative;left:50%;top:0%;width:70%;height:80%;transform:translateX(-50%)}.react-3d-carousel .slider-container .slider-content .slider-single{position:absolute;z-index:0;left:0;top:0;width:100%;transition:z-index 0ms 250ms}.react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:relative;left:0;top:0;width:100%;box-shadow:0px 10px 40px rgba(0,0,0,0.2);transition:500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);transform:scale(0);opacity:0}.react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content img{max-width:100%;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;user-drag:none;-webkit-touch-callout:none}.react-3d-carousel .slider-container .slider-content .slider-single.preactivede .slider-single-content{transform:translateX(-50%) scale(0)}.react-3d-carousel .slider-container .slider-content .slider-single.preactive{z-index:1}.react-3d-carousel .slider-container .slider-content .slider-single.preactive .slider-single-content{opacity:0.3;transform:translateX(-25%) scale(0.8)}.react-3d-carousel .slider-container .slider-content .slider-single.proactive{z-index:1}.react-3d-carousel .slider-container .slider-content .slider-single.proactive .slider-single-content{opacity:0.3;transform:translateX(25%) scale(0.8)}.react-3d-carousel .slider-container .slider-content .slider-single.proactivede .slider-single-content{transform:translateX(50%) scale(0)}.react-3d-carousel .slider-container .slider-content .slider-single.active{z-index:2}.react-3d-carousel .slider-container .slider-content .slider-single.active .slider-left,.react-3d-carousel .slider-container .slider-content .slider-single.active .slider-right{display:block}.react-3d-carousel .slider-container .slider-content .slider-single.active .slider-single-content{opacity:1;transform:translateX(0%) scale(1)}.react-3d-carousel .slider-container .slider-left{position:absolute;display:none;z-index:3;right:101%;margin-right:5px;padding:20px 15px;height:100%;cursor:pointer}.react-3d-carousel .slider-container .slider-left div{position:absolute;top:50%;left:0%;margin-top:-20px;color:#ffffff;transform:translateY(-50%);padding:10px 10px;border-top:2px solid #fdc84b;border-right:2px solid #fdc84b;border-bottom:2px solid #fdc84b;border-left:2px solid #fdc84b}.react-3d-carousel .slider-container .slider-right{display:none;position:absolute;z-index:3;left:101%;padding:20px 15px;height:101%;cursor:pointer;margin-left:-2px}.react-3d-carousel .slider-container .slider-right div{position:absolute;top:50%;left:0%;margin-top:-20px;color:#ffffff;transform:translateY(-50%);padding:10px 10px;border-top:2px solid #fdc84b;border-right:2px solid #fdc84b;border-bottom:2px solid #fdc84b;border-left:2px solid #fdc84b}.react-3d-carousel .slider-container .slider-left-noborders{position:absolute;display:none;z-index:3;right:101%;margin-right:5px;padding:20px 15px;height:100%;cursor:pointer}.react-3d-carousel .slider-container .slider-left-noborders div{position:absolute;top:50%;left:0%;margin-top:-20px;color:#ffffff;transform:translateY(-50%);padding:10px 10px}.react-3d-carousel .slider-container .slider-right-noborders{display:none;position:absolute;z-index:3;left:101%;padding:20px 15px;height:101%;cursor:pointer;margin-left:-2px}.react-3d-carousel .slider-container .slider-right-noborders div{position:absolute;top:50%;left:0%;margin-top:-20px;color:#ffffff;transform:translateY(-50%);padding:10px 10px}.react-3d-carousel .slider-container .slider-disabled div{display:none}\n",""]);const o=i},879:e=>{"use strict";e.exports=function(e){var t=[];return t.toString=function(){return this.map((function(t){var r=e(t);return t[2]?"@media ".concat(t[2]," {").concat(r,"}"):r})).join("")},t.i=function(e,r,n){"string"==typeof e&&(e=[[null,e,""]]);var i={};if(n)for(var o=0;o<this.length;o++){var a=this[o][0];null!=a&&(i[a]=!0)}for(var s=0;s<e.length;s++){var c=[].concat(e[s]);n&&i[c[0]]||(r&&(c[2]?c[2]="".concat(r," and ").concat(c[2]):c[2]=r),t.push(c))}},t}},418:e=>{"use strict";var t=Object.getOwnPropertySymbols,r=Object.prototype.hasOwnProperty,n=Object.prototype.propertyIsEnumerable;function i(e){if(null==e)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(e)}e.exports=function(){try{if(!Object.assign)return!1;var e=new String("abc");if(e[5]="de","5"===Object.getOwnPropertyNames(e)[0])return!1;for(var t={},r=0;r<10;r++)t["_"+String.fromCharCode(r)]=r;if("0123456789"!==Object.getOwnPropertyNames(t).map((function(e){return t[e]})).join(""))return!1;var n={};return"abcdefghijklmnopqrst".split("").forEach((function(e){n[e]=e})),"abcdefghijklmnopqrst"===Object.keys(Object.assign({},n)).join("")}catch(e){return!1}}()?Object.assign:function(e,o){for(var a,s,c=i(e),l=1;l<arguments.length;l++){for(var u in a=Object(arguments[l]))r.call(a,u)&&(c[u]=a[u]);if(t){s=t(a);for(var d=0;d<s.length;d++)n.call(a,s[d])&&(c[s[d]]=a[s[d]])}}return c}},703:(e,t,r)=>{"use strict";var n=r(414);function i(){}function o(){}o.resetWarningCache=i,e.exports=function(){function e(e,t,r,i,o,a){if(a!==n){var s=new Error("Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types");throw s.name="Invariant Violation",s}}function t(){return e}e.isRequired=e;var r={array:e,bool:e,func:e,number:e,object:e,string:e,symbol:e,any:e,arrayOf:t,element:e,elementType:e,instanceOf:t,node:e,objectOf:t,oneOf:t,oneOfType:t,shape:t,exact:t,checkPropTypes:o,resetWarningCache:i};return r.PropTypes=r,r}},697:(e,t,r)=>{e.exports=r(703)()},414:e=>{"use strict";e.exports="SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED"},37:function(e,t,r){!function(e,t){function r(){return(r=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var r=arguments[t];for(var n in r)Object.prototype.hasOwnProperty.call(r,n)&&(e[n]=r[n])}return e}).apply(this,arguments)}var n="Left",i="Right",o="Down",a={delta:10,preventDefaultTouchmoveEvent:!1,rotationAngle:0,trackMouse:!1,trackTouch:!0},s={first:!0,initial:[0,0],start:0,swiping:!1,xy:[0,0]},c="mousemove",l="mouseup";function u(e,t){if(0===t)return e;var r=Math.PI/180*t;return[e[0]*Math.cos(r)+e[1]*Math.sin(r),e[1]*Math.cos(r)-e[0]*Math.sin(r)]}function d(e,t){var a=function(t){t&&"touches"in t&&t.touches.length>1||e((function(e,n){n.trackMouse&&(document.addEventListener(c,d),document.addEventListener(l,p));var i="touches"in t?t.touches[0]:t,o=u([i.clientX,i.clientY],n.rotationAngle);return r({},e,s,{initial:[].concat(o),xy:o,start:t.timeStamp||0})}))},d=function(t){e((function(e,a){if("touches"in t&&t.touches.length>1)return e;var s="touches"in t?t.touches[0]:t,c=u([s.clientX,s.clientY],a.rotationAngle),l=c[0],d=c[1],f=l-e.xy[0],p=d-e.xy[1],v=Math.abs(f),m=Math.abs(p),h=(t.timeStamp||0)-e.start,g=Math.sqrt(v*v+m*m)/(h||1),b=[f/(h||1),p/(h||1)];if(v<a.delta&&m<a.delta&&!e.swiping)return e;var y=function(e,t,r,a){return e>t?r>0?i:n:a>0?o:"Up"}(v,m,f,p),x={absX:v,absY:m,deltaX:f,deltaY:p,dir:y,event:t,first:e.first,initial:e.initial,velocity:g,vxvy:b};x.first&&a.onSwipeStart&&a.onSwipeStart(x),a.onSwiping&&a.onSwiping(x);var w=!1;return(a.onSwiping||a.onSwiped||"onSwiped"+y in a)&&(w=!0),w&&a.preventDefaultTouchmoveEvent&&a.trackTouch&&t.cancelable&&t.preventDefault(),r({},e,{first:!1,eventData:x,swiping:!0})}))},f=function(t){e((function(e,n){var i;if(e.swiping&&e.eventData){i=r({},e.eventData,{event:t}),n.onSwiped&&n.onSwiped(i);var o="onSwiped"+i.dir;o in n&&n[o](i)}else n.onTap&&n.onTap({event:t});return r({},e,s,{eventData:i})}))},p=function(e){document.removeEventListener(c,d),document.removeEventListener(l,p),f(e)},v=function(e,t){var r=function(){};if(e&&e.addEventListener){var n=[["touchstart",a],["touchmove",d],["touchend",f]];n.forEach((function(r){var n=r[0],i=r[1];return e.addEventListener(n,i,{passive:t})})),r=function(){return n.forEach((function(t){var r=t[0],n=t[1];return e.removeEventListener(r,n)}))}}return r},m={ref:function(t){null!==t&&e((function(e,n){if(e.el===t)return e;var i={};return e.el&&e.el!==t&&e.cleanUpTouch&&(e.cleanUpTouch(),i.cleanUpTouch=void 0),n.trackTouch&&t&&(i.cleanUpTouch=v(t,!n.preventDefaultTouchmoveEvent)),r({},e,{el:t},i)}))}};return t.trackMouse&&(m.onMouseDown=a),[m,v]}e.DOWN=o,e.LEFT=n,e.RIGHT=i,e.UP="Up",e.useSwipeable=function(e){var n=e.trackMouse,i=t.useRef(r({},s)),o=t.useRef(r({},a));o.current=r({},a,e);var c=t.useMemo((function(){return d((function(e){return i.current=e(i.current,o.current)}),{trackMouse:n})}),[n]),l=c[0],u=c[1];return i.current=function(e,t,n){var i={};return!t.trackTouch&&e.cleanUpTouch?(e.cleanUpTouch(),i.cleanUpTouch=void 0):t.trackTouch&&!e.cleanUpTouch&&e.el&&(i.cleanUpTouch=n(e.el,!t.preventDefaultTouchmoveEvent)),r({},e,i)}(i.current,o.current,u),l}}(t,r(798))},251:(e,t,r)=>{"use strict";r(418);var n=r(798),i=60103;if("function"==typeof Symbol&&Symbol.for){var o=Symbol.for;i=o("react.element"),o("react.fragment")}var a=n.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,s=Object.prototype.hasOwnProperty,c={key:!0,ref:!0,__self:!0,__source:!0};function l(e,t,r){var n,o={},l=null,u=null;for(n in void 0!==r&&(l=""+r),void 0!==t.key&&(l=""+t.key),void 0!==t.ref&&(u=t.ref),t)s.call(t,n)&&!c.hasOwnProperty(n)&&(o[n]=t[n]);if(e&&e.defaultProps)for(n in t=e.defaultProps)void 0===o[n]&&(o[n]=t[n]);return{$$typeof:i,type:e,key:l,ref:u,props:o,_owner:a.current}}t.jsx=l,t.jsxs=l},893:(e,t,r)=>{"use strict";e.exports=r(251)},695:e=>{"use strict";var t={};e.exports=function(e){if(void 0===t[e]){var r=document.querySelector(e);if(window.HTMLIFrameElement&&r instanceof window.HTMLIFrameElement)try{r=r.contentDocument.head}catch(e){r=null}t[e]=r}return t[e]}},379:e=>{"use strict";var t=[];function r(e){for(var r=-1,n=0;n<t.length;n++)if(t[n].identifier===e){r=n;break}return r}function n(e,n){for(var o={},a=[],s=0;s<e.length;s++){var c=e[s],l=n.base?c[0]+n.base:c[0],u=o[l]||0,d="".concat(l," ").concat(u);o[l]=u+1;var f=r(d),p={css:c[1],media:c[2],sourceMap:c[3]};-1!==f?(t[f].references++,t[f].updater(p)):t.push({identifier:d,updater:i(p,n),references:1}),a.push(d)}return a}function i(e,t){var r=t.domAPI(t);return r.update(e),function(t){if(t){if(t.css===e.css&&t.media===e.media&&t.sourceMap===e.sourceMap)return;r.update(e=t)}else r.remove()}}e.exports=function(e,i){var o=n(e=e||[],i=i||{});return function(e){e=e||[];for(var a=0;a<o.length;a++){var s=r(o[a]);t[s].references--}for(var c=n(e,i),l=0;l<o.length;l++){var u=r(o[l]);0===t[u].references&&(t[u].updater(),t.splice(u,1))}o=c}}},216:e=>{"use strict";e.exports=function(e){var t=document.createElement("style");return e.setAttributes(t,e.attributes),e.insert(t),t}},795:e=>{"use strict";e.exports=function(e){var t=e.insertStyleElement(e);return{update:function(r){!function(e,t,r){var n=r.css,i=r.media,o=r.sourceMap;i?e.setAttribute("media",i):e.removeAttribute("media"),o&&"undefined"!=typeof btoa&&(n+="\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(o))))," */")),t.styleTagTransform(n,e)}(t,e,r)},remove:function(){!function(e){if(null===e.parentNode)return!1;e.parentNode.removeChild(e)}(t)}}}},798:t=>{"use strict";t.exports=e}},r={};function n(e){var i=r[e];if(void 0!==i)return i.exports;var o=r[e]={id:e,exports:{}};return t[e].call(o.exports,o,o.exports,n),o.exports}n.n=e=>{var t=e&&e.__esModule?()=>e.default:()=>e;return n.d(t,{a:t}),t},n.d=(e,t)=>{for(var r in t)n.o(t,r)&&!n.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},n.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),n.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})};var i={};return(()=>{"use strict";n.r(i),n.d(i,{Carousel:()=>w});var e=n(798),t=n(37),r=n(697),o=n.n(r),a=n(379),s=n.n(a),c=n(795),l=n.n(c),u=n(695),d=n.n(u),f=n(216),p=n.n(f),v=n(315),m={styleTagTransform:function(e,t){if(t.styleSheet)t.styleSheet.cssText=e;else{for(;t.firstChild;)t.removeChild(t.firstChild);t.appendChild(document.createTextNode(e))}},setAttributes:function(e){var t=n.nc;t&&e.setAttribute("nonce",t)},insert:function(e){var t=d()("head");if(!t)throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");t.appendChild(e)}};m.domAPI=l(),m.insertStyleElement=p(),s()(v.Z,m),v.Z&&v.Z.locals&&v.Z.locals;var h=n(893);function g(e){return function(e){if(Array.isArray(e))return x(e)}(e)||function(e){if("undefined"!=typeof Symbol&&null!=e[Symbol.iterator]||null!=e["@@iterator"])return Array.from(e)}(e)||y(e)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function b(e,t){return function(e){if(Array.isArray(e))return e}(e)||function(e,t){var r=null==e?null:"undefined"!=typeof Symbol&&e[Symbol.iterator]||e["@@iterator"];if(null!=r){var n,i,o=[],a=!0,s=!1;try{for(r=r.call(e);!(a=(n=r.next()).done)&&(o.push(n.value),!t||o.length!==t);a=!0);}catch(e){s=!0,i=e}finally{try{a||null==r.return||r.return()}finally{if(s)throw i}}return o}}(e,t)||y(e,t)||function(){throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function y(e,t){if(e){if("string"==typeof e)return x(e,t);var r=Object.prototype.toString.call(e).slice(8,-1);return"Object"===r&&e.constructor&&(r=e.constructor.name),"Map"===r||"Set"===r?Array.from(e):"Arguments"===r||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)?x(e,t):void 0}}function x(e,t){(null==t||t>e.length)&&(t=e.length);for(var r=0,n=new Array(t);r<t;r++)n[r]=e[r];return n}function w(r){var n=b((0,e.useState)(0),2),i=n[0],o=n[1],a=b((0,e.useState)(-1),2),s=a[0],c=a[1],l=b((0,e.useState)([]),2),u=l[0],d=l[1],f=b((0,e.useState)("0px"),2),p=f[0],v=f[1],m=(0,e.useRef)(),y=(0,t.useSwipeable)({onSwipedLeft:function(){return x()},onSwipedRight:function(){return w()},preventDefaultTouchmoveEvent:!0,trackMouse:!0});(0,e.useEffect)((function(){var e=[];r.slides.forEach((function(t){var r={class:"slider-single proactivede",element:t};e.push(r)})),2===r.slides.length&&r.slides.forEach((function(t){var r={class:"slider-single proactivede",element:t};e.push(r)})),d(e),o(e.length-1),c(-1),-1===s&&setTimeout((function(){x(),r.autoplay&&(m.interval=setTimeout((function(){x()}),r.interval))}),500)}),[r.slides]),(0,e.useEffect)((function(){-1===s&&setTimeout((function(){x()}),500)}),[u,s]);var x=function e(){var t,n,o=s,a="slider-single active",l=g(u);if(i>1){o<i?o++:o=0,t=o>0?l[o-1]:l[i];var f=l[o];n=o<i?l[o+1]:l[0],l.forEach((function(e,t){e.class.includes("preactivede")&&(e.class="slider-single proactivede"),e.class.includes("preactive")&&(e.class="slider-single preactivede")})),t.class="slider-single preactive",f.class=a,n.class="slider-single proactive",d(l),c(o),document.getElementsByClassName("slider-single active").length>0&&setTimeout((function(){if(document.getElementsByClassName("slider-single active").length>0){var e=document.getElementsByClassName("slider-single active")[0].clientHeight;v("".concat(e,"px"))}}),500),r.autoplay&&(clearTimeout(m.interval),m.interval=setTimeout((function(){e()}),r.interval))}else l[0]&&l[0].class!==a&&(l[0].class=a,d(l),c(0))},w=function(){if(i>1){var e,t,r=s,n=g(u);r>0?r--:r=i,t=r<i?n[r+1]:n[0];var o=n[r];e=r>0?n[r-1]:n[i],n.forEach((function(e,t){e.class.includes("proactivede")&&(e.class="slider-single preactivede"),e.class.includes("proactive")&&(e.class="slider-single proactivede")})),e.class="slider-single preactive",o.class="slider-single active",t.class="slider-single proactive",d(n),c(r),document.getElementsByClassName("slider-single active").length>0&&setTimeout((function(){if(document.getElementsByClassName("slider-single active").length>0){var e=document.getElementsByClassName("slider-single active")[0].clientHeight;v("".concat(e,"px"))}}),500)}},T=function(e){var t="slider-".concat(e);return r.arrows?r.arrows&&!r.arrowBorders&&(t="slider-".concat(e,"-noborders")):t="slider-disabled",t};return(0,h.jsx)("div",Object.assign({className:"react-3d-carousel",style:{height:p}},y,{children:u&&u.length>0&&(0,h.jsx)("div",{className:"slider-container",children:(0,h.jsx)("div",{className:"slider-content",children:u.map((function(e,t){return(0,h.jsxs)("div",{className:e.class,children:[(0,h.jsx)("div",{className:T("left"),onClick:w,children:(0,h.jsx)("div",{children:(0,h.jsx)("i",{className:"fa fa-arrow-left"})})}),(0,h.jsx)("div",{className:T("right"),onClick:x,children:(0,h.jsx)("div",{children:(0,h.jsx)("i",{className:"fa fa-arrow-right"})})}),(0,h.jsx)("div",{className:"slider-single-content",children:e.element})]},t)}))})})}))}w.propTypes={slides:o().arrayOf(o().element),autoplay:o().bool,interval:o().number,arrows:o().bool,arrowBorders:o().bool},w.defaultProps={autoplay:!1,interval:3e3,arrows:!0,arrowBorders:!0}})(),i})()}));
-
-/***/ }),
-
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
@@ -2275,14 +2264,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var _3d_react_carousal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! 3d-react-carousal */ "./node_modules/3d-react-carousal/dist/index.js");
-/* harmony import */ var _3d_react_carousal__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_3d_react_carousal__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.css */ "./resources/js/pages/app.css");
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/Header */ "./resources/js/components/Header.js");
-/* harmony import */ var _Notfound__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Notfound */ "./resources/js/pages/Notfound.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/footer */ "./resources/js/components/footer.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
+/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.css */ "./resources/js/pages/app.css");
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/Header */ "./resources/js/components/Header.js");
+/* harmony import */ var _Notfound__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Notfound */ "./resources/js/pages/Notfound.js");
+/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/footer */ "./resources/js/components/footer.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
 
 
@@ -2294,65 +2280,171 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Home() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
     className: "home",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_5__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
       className: "body",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+        "class": "container",
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i1",
+          name: "images",
+          checked: true
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i2",
+          name: "images"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i3",
+          name: "images"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i4",
+          name: "images"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("input", {
+          type: "radio",
+          id: "i5",
+          name: "images"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "one",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://www.globalpartnership.org/sites/default/files/docs/sierra-leone-power-great-teaching-times-crisis_0.jpg",
+            id: "LastClone"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i5",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "two",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://www.eurelien.fr/sites/default/files/styles/638x426/public/actu-formation-en-ligne.jpg?itok=HMBOHEVT",
+            alt: "im1"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i1",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i3",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "three",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://static.wixstatic.com/media/314376_eebbe32986f44d16b6014526c1b637c7~mv2.jpg/v1/fill/w_1000,h_491,al_c,q_90,usm_0.66_1.00_0.01/314376_eebbe32986f44d16b6014526c1b637c7~mv2.jpg",
+            alt: ""
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i2",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "four",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://ichef.bbci.co.uk/news/640/cpsprodpb/3EC0/production/_118146061_7326abc7-29d3-4211-827e-60ba04b7dac0.jpg",
+            alt: ""
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i3",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i5",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          "class": "slide_img",
+          id: "five",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("img", {
+            src: "https://media.dogfinance.com/files/articles/quel-impact-du-digital-sur-les-metiers-de-la-finance_b.jpg",
+            alt: ""
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "prev",
+            "for": "i4",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u2039"
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "class": "next",
+            "for": "i1",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("span", {
+              children: "\u203A"
+            })
+          })]
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
+          id: "nav_slide",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i1",
+            "class": "dots",
+            id: "dot1"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i2",
+            "class": "dots",
+            id: "dot2"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i3",
+            "class": "dots",
+            id: "dot3"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i4",
+            "class": "dots",
+            id: "dot4"
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("label", {
+            "for": "i5",
+            "class": "dots",
+            id: "dot5"
+          })]
+        })]
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
         className: "p",
         children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
         className: "p",
         children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
         className: "p",
         children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
-        className: "p",
-        children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("p", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("p", {
         className: "p",
         children: "L'objectif d'un rapport de la faisabilit\xE9 consiste \xE0 pr\xE9senter les param\xE8tres du projet et \xE0 d\xE9finir les solutions possibles au probl\xE8me, au besoin ou \xE0 l'occasion pr\xE9cis\xE9s. Apr\xE8s avoir lanc\xE9 des id\xE9es sur les solutions possibles, l'\xE9quipe de projet expose en d\xE9tail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements tr\xE8s g\xE9n\xE9raux sur les co\xFBts, pour permettre au chef de projet de recommander \xE0 l'autorit\xE9 approbatrice toutes les solutions possibles viables qui devraient \xEAtre analys\xE9es plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes li\xE9es au projet et les limites de d\xE9penses font partie des divers facteurs qui permettent de d\xE9terminer la viabilit\xE9 des solutions."
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_7__["default"], {})]
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_footer__WEBPACK_IMPORTED_MODULE_6__["default"], {})]
   });
 }
 
 if (document.getElementById('home')) {
-  react_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(Home, {}), document.getElementById('home'));
+  react_dom__WEBPACK_IMPORTED_MODULE_2__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(Home, {}), document.getElementById('home'));
 }
 
 /***/ }),
@@ -2374,8 +2466,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);"]);
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Just+Another+Hand);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n\r\n    font-family: 'Poppins' sans-serif;\r\n    margin: 0%;\r\n}\r\n .body{\r\n    text-align: center;\r\n    background-color: rgba(17, 17, 17, 0.76);\r\n}\r\n.header\r\n{\r\n    background-color: rgb(7, 7, 7);\r\n    margin-top: 0%;\r\n    margin-right: 0%;\r\n    height: 100px;\r\n    left: 0px;\r\n    right: Opx;\r\n}\r\n.nomJournal\r\n{\r\n    position: relative;\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n    font-size: 1.5rem;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    left: 601px;\r\n    top: 10px;\r\n    color: white;\r\n}\r\n.conneter\r\n{\r\n    font-weight: bold;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    position: absolute;\r\n    width: 100px;\r\n    left: 1090px;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.abonner\r\n{\r\n    font-weight: bold;\r\n    background-color:  rgba(153, 153, 153, 0.795);\r\n    border-radius: 20px;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    position: absolute;\r\n    width: 150px;\r\n    right: 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.p {\r\n    color: white;\r\n    text-align: justify;\r\n    margin-left: 10%;\r\n    margin-right: 10%;\r\n}\r\n.nav{\r\n    color: white;\r\n    display: flex;\r\n  /*  flex-direction: row-reverse;*/\r\n    justify-content: center;\r\n    margin-right: 5%;\r\n    text-align: right;\r\n}\r\n/**Navigation link**/\r\n.barre{\r\n    margin-right: 3%;\r\n}\r\n.footer{\r\n    background-color: red;\r\n    color: white;\r\n    height: 90px;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n\r\n    font-family: 'Poppins' sans-serif;\r\n    margin: 0%;\r\n}\r\n .body{\r\n    text-align: center;\r\n    background-color: rgba(17, 17, 17, 0.76);\r\n}\r\n.header\r\n{\r\n    background-color: rgb(7, 7, 7);\r\n    margin-top: 0%;\r\n    margin-right: 0%;\r\n    height: 100px;\r\n    left: 0px;\r\n    right: Opx;\r\n}\r\n.nomJournal\r\n{\r\n    position: relative;\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n    font-size: 1.5rem;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    left: 601px;\r\n    top: 10px;\r\n    color: white;\r\n}\r\n.conneter\r\n{\r\n    font-weight: bold;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    position: absolute;\r\n    width: 100px;\r\n    left: 1090px;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.abonner\r\n{\r\n    font-weight: bold;\r\n    background-color:  rgba(153, 153, 153, 0.795);\r\n    border-radius: 20px;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    position: absolute;\r\n    width: 150px;\r\n    right: 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.p {\r\n    color: white;\r\n    text-align: justify;\r\n    margin-left: 10%;\r\n    margin-right: 10%;\r\n}\r\n.nav{\r\n    color: white;\r\n    display: flex;\r\n  /*  flex-direction: row-reverse;*/\r\n    justify-content: center;\r\n    margin-right: 5%;\r\n    text-align: right;\r\n}\r\n/**Navigation link**/\r\n.barre{\r\n    margin-right: 3%;\r\n}\r\n.footer{\r\n    background-color: red;\r\n    color: white;\r\n    height: 90px;\r\n}\r\n\r\n/** Caroussel css begin herer*/\r\n\r\nbody{\r\n\t\twidth: 100%;\r\n\t\theight: 100%;\t\r\n\t\tmargin: 0;\r\n\t\t/*font-family: 'Just Another Hand', cursive;*/\r\n\t\toverflow-X: hidden;/* optional */\r\n\t}\r\n    #i1, #i2, #i3, #i4, #i5{ display: none;}\r\n    .container{\r\n\t\tmargin: 0 auto;\r\n\t\tmargin-top: 0px;\r\n\t\tposition: relative;\r\n\t\twidth: 70%;\r\n\t\theight: 0;\r\n\t\tpadding-bottom: 38%;\r\n\t  -webkit-user-select: none;\r\n\t     -moz-user-select: none;\r\n\t      -ms-user-select: none;\r\n\t          user-select: none;\r\n\t\tbackground-color: #1c1c1c;\r\n\t\tborder: solid 10px #616161;\r\n\t\tborder-radius:10px ; \r\n\t}\r\n\r\n\t.container .slide_img{\r\n\t\tposition: absolute;\r\n\t\twidth: 100%;;\r\n\t\theight: 100%;\r\n\t}\r\n\t.container .slide_img img{\r\n\t\twidth: inherit;\r\n\t\theight: inherit;\r\n\t}\r\n\r\n\t .prev, .next{\r\n\t\twidth: 12%;\r\n\t\theight: inherit;\r\n\t\tposition: absolute;\r\n\t\ttop:0; \r\n\t\tbackground-color: rgba(88, 88, 88,.2);\r\n\t\tcolor:rgba(244, 244, 244,.9);\r\n\t\tz-index: 99;\r\n\t\ttransition: .45s;\r\n\t\tcursor: pointer;\r\n\t\ttext-align: center;\r\n\t}\r\n\r\n\t.next{right:0;}\r\n\t.prev{left:0;}\r\n\r\n\tlabel span{\r\n\t\tposition: absolute;\r\n\t\tfont-size: 100pt;\r\n\t\ttop: 50%;\r\n\t \ttransform: translateY(-50%);\r\n\t}\r\n\r\n\t.prev:hover, .next:hover{\r\n\t\ttransition: .3s;\r\n\t\tbackground-color: rgba(88, 88, 89,.8);\r\n\t\tcolor: #ffffff; \r\n\t}\r\n\r\n.container #nav_slide{\r\n\twidth: 100%;\r\n\tbottom: 12%;\r\n\theight: 11px;\r\n\tposition: absolute;\r\n\ttext-align: center;\r\n\tz-index: 99;\r\n\tcursor: default;\r\n}\r\n\r\n#nav_slide .dots{\r\n\ttop: -5px;\r\n\twidth: 18px;\r\n\theight: 18px;\r\n\tmargin: 0 4px;\r\n\tposition: relative;\r\n\tborder-radius: 100%;\r\n\tdisplay: inline-block;\r\n\tbackground-color: rgba(0, 0, 0, 0.6);\r\n\ttransition: .4s;\r\n}\r\n\r\n#nav_slide .dots:hover {\r\n\tcursor: pointer;\r\n\tbackground-color: rgba(255, 255, 255, 0.9);\r\n\ttransition: .25s\r\n}\r\n\r\n.slide_img{z-index: -1;}\r\n\r\n\t#i1:checked ~ #one  ,\r\n\t#i2:checked ~ #two  ,\r\n\t#i3:checked ~ #three,\r\n\t#i4:checked ~ #four ,\r\n\t#i5:checked ~ #five \r\n\t{z-index: 9; -webkit-animation: scroll 1s ease-in-out; animation: scroll 1s ease-in-out;}\r\n\r\n\t#i1:checked  ~  #nav_slide #dot1,\r\n\t#i2:checked  ~  #nav_slide #dot2,\r\n\t#i3:checked  ~  #nav_slide #dot3,\r\n\t#i4:checked  ~  #nav_slide #dot4,\r\n\t#i5:checked  ~  #nav_slide #dot5\r\n\t{ background-color: rgba(255,255,255,.9);}\r\n\r\n@-webkit-keyframes scroll{\r\n\t0%{\topacity:.4;}\r\n\t100%{opacity:1;}\r\n}\r\n\r\n@keyframes scroll{\r\n\t0%{\topacity:.4;}\r\n\t100%{opacity:1;}\r\n}\t\t\r\n\r\n@media screen and (max-width: 685px){\r\n\t.container{\r\n\t\tborder: none;\r\n\t\twidth: 100%;\r\n\t\theight: 0;\r\n\t\tpadding-bottom: 55%; \r\n\t}\t\r\n\t\r\n\tlabel span { font-size: 50pt; }\r\n\t\r\n\t.prev, .next{\r\n\t\twidth: 15%;\r\n\t}\t\r\n\t#nav_slide .dots{\r\n\t\twidth: 12px;\r\n\t\theight: 12px;\r\n\t}\r\n}\r\n@media screen  and(min-width: 970px){\r\n\t.me{ display: none;}\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
