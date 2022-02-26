@@ -8,7 +8,7 @@
 }
  .body{
     text-align: center;
-    background-color: rgba(17, 17, 17, 0.76);
+    background-color: rgba(0, 0, 0, 0.87);
 }
 .header
 {
@@ -63,7 +63,92 @@
     color: white;
     text-align: justify;
     margin-left: 10%;
+    margin-right: 40%;
+}
+.plusInfos
+{
+    color: rgba(153, 153, 153, 0.795);
+    font-weight: bold;
+}
+.plusInfos:hover
+{
+    color: white;
+}
+
+.h6{
+    font-family: "montserrat-bold", sans-serif;
+    color:rgba(153, 153, 153, 0.795);
+    font-size: 1.0rem;
+    margin-top: 5%;
+    margin-left: 10%;
     margin-right: 10%;
+    text-align: left;
+}
+.h{
+    font-size: 2.0rem;
+    margin-top: 1%;
+    margin-left: 1%;
+    text-align: justify;
+    text-align: left;
+}
+/*all images*/
+.container-img{
+    display:block;
+    overflow:hidden;
+}
+.container-img .image {
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.container-img  .images{
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.container-img:hover .image {
+    transform:scale(1.2);
+}
+.container-img:hover .images{
+    transform:scale(1.2);
+}
+.image{
+    display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 12%;
+    width: 700px;
+    height: 372px;
+    left: 10%;
+    margin-right: 1%;
+    border-radius: 4px;
+    max-width: 100%;
+
+}
+.images{
+
+    display: flex;
+    margin-top: 2%;
+    margin-left: 12%;
+    width: 300px;
+    height: 172px;
+    left: 10%;
+    margin-right: 1%;
+    border-radius: 4px;
+    max-width: 100%;
+
+}
+.container-img:hover .image {
+    transform:scale(1.2);
+}
+.container-img:hover .images{
+    transform:scale(1.2);
 }
 .nav{
     margin: 26px O;
@@ -74,12 +159,66 @@
     margin-right: 10px;
     padding: 10px;
     position: relative;
+    left: 0px;
+    margin-right: 0%;
+    right: Opx;
+    text-align: right;
     font-family: "montserrat-bold", sans-serif;
+    background-color:  rgba(0, 0, 0, 0.932);
+
+}
+.uls
+{
+    margin-left: 10%;
+    color: white;
+    text-align: left;
+    margin-bottom: 2%;
+}
+.lis
+{
+    margin: 0%;
+}
+.nav .ul{
+    list-style: none;
+}
+.nav .li{
+    display: inline-block;
+    margin-right: 40px ;
+}
+.div_lien
+{
+    margin-top: 1%;
+
+}
+.section
+{
+    padding-bottom: 2%;
+}
+.hr {
+    border: 1px solid red;
+    position: absolute;
+    margin-left: 10%;
+    width: 680px;
+
+
+
+  }
+.link
+{
+    color: white;
+    text-decoration: none;
+}
+.link:hover
+{
+    color:blue;
+    border-radius: 20%;
+    border-bottom: 5px solid blue;
 
 }
 
 .footer{
-    background-color: red;
+
+    background-color: rgba(0, 0, 0, 0.932);;
     color: white;
     height: 90px;
 }
@@ -103,7 +242,7 @@ body{
 		padding-bottom: 38%;
 	  user-select: none;
 		background-color: #1c1c1c;
-		border: solid 10px #616161;
+
 		border-radius:10px ;
 	}
 

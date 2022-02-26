@@ -9,7 +9,6 @@
     <link href="{{ asset('css/app.css') }}" >
 </head>
 <body>
-
     <div id="home"></div>
     <script src="{{ asset('js/app.js') }}" defer> </script>
 </body>
