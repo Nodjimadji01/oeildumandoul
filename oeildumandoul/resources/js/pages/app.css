@@ -86,8 +86,8 @@
 }
 .h{
     font-size: 2.0rem;
-    margin-top: 1%;
-    margin-left: 1%;
+    margin-top: 0%;
+    margin-left: 3%;
     text-align: justify;
     text-align: left;
 }
@@ -150,6 +150,7 @@
 .container-img:hover .images{
     transform:scale(1.2);
 }
+/* Navigation */
 .nav{
     margin: 26px O;
     display: flex;
@@ -165,7 +166,6 @@
     text-align: right;
     font-family: "montserrat-bold", sans-serif;
     background-color:  rgba(0, 0, 0, 0.932);
-
 }
 .uls
 {
@@ -195,8 +195,8 @@
     padding-bottom: 2%;
 }
 .hr {
-    border: 1px solid red;
-    position: absolute;
+    border: 1px solid rgba(153, 153, 153, 0.795);;
+    position: relative;
     margin-left: 10%;
     width: 680px;
 
@@ -210,20 +210,36 @@
 }
 .link:hover
 {
-    color:blue;
+    color:rgba(153, 153, 153, 0.795);
     border-radius: 20%;
-    border-bottom: 5px solid blue;
+    border-bottom: 5px solid rgba(153, 153, 153, 0.795);
 
 }
-
+/* Footer*/
 .footer{
 
-    background-color: rgba(0, 0, 0, 0.932);;
-    color: white;
-    height: 90px;
+    background-color: rgba(0, 0, 0, 0.932);
+    height: 120px;
+    padding-left: 20%;
+    padding-top: 15px;
 }
+.nav_footer{
+    text-align: center;
+    display: inline-block;
+}
+.ul_footer{
+    list-style-type: none;
+}
+.li_footer{
+    display: inline-block;
+    list-style-type: none;
+    font-family: "montserrat-bold", sans-serif;
+    color: white;
+    margin-right: 60px;
+    max-width: 100%;
 
-/** Caroussel css begin herer*/
+}
+/** Caroussel css begin here*/
 
 body{
 		width: 100%;
@@ -255,19 +271,19 @@ body{
 		width: inherit;
 		height: inherit;
 	}
-
-	 .prev, .next{
-		width: 12%;
+.prev, .next{
+		width: 5%;
 		height: inherit;
 		position: absolute;
 		top:0;
-		background-color: rgba(88, 88, 88,.2);
-		color:rgba(244, 244, 244,.9);
+		background-color: rgba(88, 88, 88, 0.041);
+		color:rgba(114, 111, 111, 0.205);
 		z-index: 99;
 		transition: .45s;
 		cursor: pointer;
 		text-align: center;
 	}
+
 
 	.next{right:0;}
 	.prev{left:0;}
@@ -281,7 +297,7 @@ body{
 
 	.prev:hover, .next:hover{
 		transition: .3s;
-		background-color: rgba(88, 88, 89,.8);
+		background-color: rgba(88, 88, 89, 0.226);
 		color: #ffffff;
 	}
 
