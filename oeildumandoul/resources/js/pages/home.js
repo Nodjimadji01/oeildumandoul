@@ -20,7 +20,7 @@ function Home() {
             <div class="container">
 
 
-             <input type="radio" id="i1" name="images" checked />
+                <input type="radio" id="i1" name="images" checked />
                 <input type="radio" id="i2" name="images" />
                 <input type="radio" id="i3" name="images" />
                 <input type="radio" id="i4" name="images" />
