@@ -1,36 +1,17 @@
-import React from "react";
-import { ReactDOM } from "react";
-var Carousel = require('react-responsive-carousel').Carousel;
-
-const Caroussel = () => {
+const Slider = () => {
     return (
-         <Carousel showArrows={true} onChange={onChange} onClickItem={onClickItem} onClickThumb={onClickThumb}>
-                <div>
-                    <img src="https://www.eurelien.fr/sites/default/files/styles/638x426/public/actu-formation-en-ligne.jpg?itok=HMBOHEVT" />
-                    <p className="legend">Legend 1</p>
+        <div className="slider">
+            <div className="slides">
+
+                <div className="slide">
+                    <img  src="https://s.france24.com/media/display/c4cea0c8-1099-11e9-b6cf-005056bff430/w:1024/p:16x9/main_infog_ps_0.webp" alt=""></img>
                 </div>
-                <div>
-                    <img src="https://www.eurelien.fr/sites/default/files/styles/638x426/public/actu-formation-en-ligne.jpg?itok=HMBOHEVT" />
-                    <p className="legend">Legend 2</p>
+                <div className="slide">
+                    <img src="https://www.globalpartnership.org/sites/default/files/docs/sierra-leone-power-great-teaching-times-crisis_0.jpg" id="LastClone"></img>
                 </div>
-                <div>
-                    <img src="https://www.eurelien.fr/sites/default/files/styles/638x426/public/actu-formation-en-ligne.jpg?itok=HMBOHEVT" />
-                    <p className="legend">Legend 3</p>
-                </div>
-                <div>
-                    <img src="https://www.eurelien.fr/sites/default/files/styles/638x426/public/actu-formation-en-ligne.jpg?itok=HMBOHEVT" />
-                    <p className="legend">Legend 4</p>
-                </div>
-                <div>
-                    <img src="https://www.eurelien.fr/sites/default/files/styles/638x426/public/actu-formation-en-ligne.jpg?itok=HMBOHEVT" />
-                    <p className="legend">Legend 5</p>
-                </div>
-                <div>
-                    <img src="https://www.eurelien.fr/sites/default/files/styles/638x426/public/actu-formation-en-ligne.jpg?itok=HMBOHEVT" />
-                    <p className="legend">Legend 6</p>
-                </div>
-            </Carousel>
+            </div>
+        </div>
      );
 }
 
-export default Caroussel;
+export default Slider;

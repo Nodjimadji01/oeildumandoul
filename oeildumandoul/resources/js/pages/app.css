@@ -283,12 +283,52 @@
     max-width: 100%;
 
 }
+.slider{
+    width: 800px;
+    overflow: hidden;
+    margin: 0px auto;
+    padding: 5px auto;
+    height: 533px;
+
+}
+.slides{
+    width: calc( 800px * 3);
+    animation: glisse_image 5s infinite;
+}
+.slide{
+    float: left;
+}
+
+@keyframes glisse_image {
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-800px);
+    }
+    43%{
+        transform: translateX(-800px);
+    }
+    66%{
+        transform: translateX(-1600px);
+    }
+    76%{
+        transform: translateX(-1600px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
 /** Caroussel css begin here*/
 
 body{
 		width: 100%;
 		height: 100%;
 		margin: 0;
+
 		/*font-family: 'Just Another Hand', cursive;*/
 		overflow-X: hidden;/* optional */
 	}
@@ -302,7 +342,8 @@ body{
 		padding-bottom: 38%;
 	  user-select: none;
 		background-color: #1c1c1c;
-
+        width: calc( 800px * 3);
+        animation: glisse_image 5s infinite;
 		border-radius:10px ;
 	}
 
@@ -373,7 +414,12 @@ body{
 	transition: .25s
 }
 
-.slide_img{z-index: -1;}
+.slide_img{
+    z-index: -1;
+    float: left;
+
+
+}
 
 	#i1:checked ~ #one  ,
 	#i2:checked ~ #two  ,
@@ -390,7 +436,30 @@ body{
 	{ background-color: rgba(255,255,255,.9);}
 
 @keyframes scroll{
-	0%{	opacity:.4;}
+	0%{
+        transform: translateX(0);
+        opacity:.4;
+    }
+    10%{
+        transform: translateX(0);
+        opacity:.4;
+    }
+    33%{
+        transform: translateX(-535px);
+        opacity:.4;
+    }
+    43%{
+        transform: translateX(-535px);
+        opacity:.4;
+    }
+    66%{
+        transform: translateX(-1070);
+        opacity:.4;
+    }
+    76%{
+        transform: translateX(-1070);
+        opacity:.4;
+    }
 	100%{opacity:1;}
 }
 
