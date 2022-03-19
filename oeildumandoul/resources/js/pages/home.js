@@ -8,23 +8,15 @@ import Footer from '../components/footer';
 import Slider from '../components/caroussel';
 import Navigation from '../components/Navigation';
 
-
-
-
 function Home() {
-
-
-
 
     return (
         <div className='home' >
             <Header></Header>
-
             <Navigation></Navigation>
 
-
-
             <div className="body">
+
               <Slider></Slider>
                 <section className="section">
                     <article className="article">
@@ -34,8 +26,7 @@ function Home() {
                         <div className="container-img">
                           <img className='image' src="https://ichef.bbci.co.uk/news/800/cpsprodpb/CFC9/production/_123339135_car.jpg.webp" alt=""></img>
                         </div>
-                        <p className="p">
-                            L'objectif d'un rapport de la faisabilité consiste à présenter les paramètres du projet et à définir les solutions possibles au problème, au besoin ou à l'occasion précisés. Après avoir lancé des idées sur les solutions possibles, l'équipe de projet expose en détail chacune de ces solutions et fournit suffisamment de renseignements, dont des renseignements très généraux sur les coûts, pour permettre au chef de projet de recommander à l'autorité approbatrice toutes les solutions possibles viables qui devraient être analysées plus en profondeur au cours de la prochaine phase (analyse de rentabilisation). Les contraintes liées au projet et les limites de dépenses font partie des divers facteurs qui permettent de déterminer la viabilité des solutions...
+                        <p className="p">de rentabilisation). Les contraintes liées au projet et les limites de dépenses font partie des divers facteurs qui permettent de déterminer la viabilité des solutions...
                             <a href='' className='plusInfos' style={{ color: 'ActiveBorder' }}><i class="fa fa-arrow-right" aria-hidden="true">plus</i></a>
                         </p>
                        <div className='div_lien'>

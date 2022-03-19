@@ -24,7 +24,7 @@
                             <Link className="link" to="../pages" >Politique</Link>
                         </li>
                         <li className="li">
-                            <Link className="link" to="../pages" >Sport</Link>
+                            <Link className="link" to="../pages/education.js" >Sport</Link>
                         </li>
                         <li className="li">
                             <Link className="link" to="../pages" >Science</Link>
