@@ -7,8 +7,8 @@ const Slider = () => {
               <Carousel>
                     <Carousel.Item interval={1000}>
                         <img
-                        className="d-block w-100"
-                        src="https://pixabay.com/get/gd62889c0535a40117ccd9bb2b70a219cf2285efec4ac080371f6496eb91792516aeabe88a5f176d48a633fd045cbf848ab4ab258d18be29d971a8934eafbf1ca6aec577687d8476bc85b6f70ce93cae2_640.jpg"
+                        className="d-block w-100 h-100"
+                        src="https://images.pexels.com/photos/667803/pexels-photo-667803.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
                         alt="First slide"
                         />
                         <Carousel.Caption>
