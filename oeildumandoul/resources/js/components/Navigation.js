@@ -15,7 +15,7 @@
                  <nav className="nav">
                     <ul className="ul">
                         <li className="li">
-                            <Link className="link" to="../pages" >A la une</Link>
+                            <Link className="link" to="/home" >A la une</Link>
                         </li>
                         <li className="li">
                             <Link className="link" to="../pages" >Finance</Link>

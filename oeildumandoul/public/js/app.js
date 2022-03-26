@@ -3287,7 +3287,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navigation */ "./resources/js/components/Navigation.js");
 /* harmony import */ var _pages_Notfound__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../pages/Notfound */ "./resources/js/pages/Notfound.js");
 /* harmony import */ var _pages_routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../pages/routes */ "./resources/js/pages/routes.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _pages_app_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../pages/app.css */ "./resources/js/pages/app.css");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -3295,28 +3297,29 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Header = function Header() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("header", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("header", {
     className: "header",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("ul", {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("a", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("ul", {
+      className: "items",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
           href: "/",
           className: "nomJournal",
-          children: ["L'oeil", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+          children: ["L'oeil", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
             style: {
               color: 'blue'
             },
             children: "du"
           }), "Mandoul"]
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
           href: "../pages/Notfound",
           className: "conneter",
           children: "Se connecter"
         })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
           className: "abonner",
           children: "ABONNEZ-VOUS"
         })
@@ -3372,7 +3375,7 @@ var Navigation = function Navigation() {
             className: "li",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
               className: "link",
-              to: "../pages",
+              to: "/home",
               children: "A la une"
             })
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("li", {
@@ -3477,7 +3480,7 @@ var Slider = function Slider() {
           interval: 500,
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
             className: "d-block w-100",
-            src: "https://pixabay.com/get/gd62889c0535a40117ccd9bb2b70a219cf2285efec4ac080371f6496eb91792516aeabe88a5f176d48a633fd045cbf848ab4ab258d18be29d971a8934eafbf1ca6aec577687d8476bc85b6f70ce93cae2_640.jpg",
+            src: "https://cdn.pixabay.com/photo/2016/09/21/04/46/barley-field-1684052_960_720.jpg",
             alt: "Second slide"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"].Caption, {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
@@ -3489,7 +3492,7 @@ var Slider = function Slider() {
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"].Item, {
           children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
             className: "d-block w-100",
-            src: "https://pixabay.com/get/gd62889c0535a40117ccd9bb2b70a219cf2285efec4ac080371f6496eb91792516aeabe88a5f176d48a633fd045cbf848ab4ab258d18be29d971a8934eafbf1ca6aec577687d8476bc85b6f70ce93cae2_640.jpg",
+            src: "https://cdn.pixabay.com/photo/2016/11/30/15/00/apples-1872997_960_720.jpg",
             alt: "Third slide"
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_2__["default"].Caption, {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("h3", {
@@ -3651,7 +3654,10 @@ function Home() {
     className: "home",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Navigation__WEBPACK_IMPORTED_MODULE_7__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
       className: "body",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_caroussel__WEBPACK_IMPORTED_MODULE_6__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("section", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
+        className: "CustomS",
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_caroussel__WEBPACK_IMPORTED_MODULE_6__["default"], {})
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("section", {
         className: "section",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("article", {
           className: "article",
@@ -4545,7 +4551,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);"]);
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Just+Another+Hand);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n\r\n    font-family: 'Poppins' sans-serif;\r\n    margin: 0%;\r\n}\r\n .body{\r\n    text-align: center;\r\n    background-color: rgba(0, 0, 0, 0.87);\r\n}\r\n.header\r\n{\r\n    background-color: rgb(7, 7, 7);\r\n    margin-top: 0%;\r\n    margin-right: 0%;\r\n    height: 100px;\r\n    left: 0px;\r\n    right: Opx;\r\n}\r\n.nomJournal\r\n{\r\n    position: relative;\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n    font-size: 1.5rem;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    left: 601px;\r\n    top: 10px;\r\n    color: white;\r\n}\r\n.conneter\r\n{\r\n    font-weight: bold;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    position: absolute;\r\n    width: 100px;\r\n    left: 1090px;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.abonner\r\n{\r\n    font-weight: bold;\r\n    background-color:  rgba(153, 153, 153, 0.795);\r\n    border-radius: 20px;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    position: absolute;\r\n    width: 150px;\r\n    right: 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.p {\r\n    color: white;\r\n    text-align: justify;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    margin-left: 10%;\r\n    margin-right: 40%;\r\n}\r\n.p_img{\r\n    color: white;\r\n    text-align: justify;\r\n    margin-top: 10px;\r\n   float: right;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    overflow: auto;\r\n    width: 250px;\r\n    left: 10%;\r\n    height: auto;\r\n    margin-right:auto;\r\n\r\n\r\n}\r\n\r\n\r\n.plusInfos\r\n{\r\n    color: rgba(153, 153, 153, 0.795);\r\n    font-weight: bold;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n}\r\n.plusInfos:hover\r\n{\r\n    color: white;\r\n}\r\n\r\n.h6{\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    color:rgba(153, 153, 153, 0.795);\r\n    font-size: 1.0rem;\r\n    margin-top: 5%;\r\n    margin-left: 10%;\r\n    margin-right: 10%;\r\n    text-align: left;\r\n}\r\n.h{\r\n    font-size: 2.0rem;\r\n    margin-top: 0%;\r\n    margin-left: 3%;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    text-align: justify;\r\n    text-align: left;\r\n}\r\n/*all images*/\r\n.container-img{\r\n    display:block;\r\n    overflow:hidden;\r\n\r\n}\r\n.container-img .image {\r\n    transition: all 0.2s;\r\n}\r\n.row{\r\n    display: inline-block;\r\n}\r\n\r\n.li_img{\r\n    display: inline-block;\r\n    list-style-type: none;\r\n    margin-right: 100px;\r\n    max-width: 100%;\r\n\r\n}\r\n.ul_img{\r\n    margin-top: 25px;\r\n    margin-bottom: 25px;\r\n    list-style-type: none;\r\n}\r\n.container-img  .images{\r\n    transition: all 0.2s;\r\n}\r\n.container-img:hover .image {\r\n    transform:scale(1.2);\r\n}\r\n.container-img:hover .images {\r\n    transform:scale(1.2);\r\n    opacity: 2;\r\n}\r\n\r\n\r\n.image{\r\n    display: flex;\r\n    margin-top: 1%;\r\n    margin-bottom: 1%;\r\n    margin-left: 12%;\r\n    width: 700px;\r\n    height: 372px;\r\n    left: 1%;\r\n    margin-right: 1%;\r\n    border-radius: 4px;\r\n    max-width: 100%;\r\n\r\n}\r\n.images{\r\n\r\n    display: flex;\r\n    margin-top: 2%;\r\n    margin-left: 12%;\r\n    width: 300px;\r\n    height: 172px;\r\n    left: 10%;\r\n    margin-right: 1%;\r\n    border-radius: 4px;\r\n    max-width: 100%;\r\n\r\n}\r\n\r\n\r\n.container-img:hover .image {\r\n    transform:scale(1.2);\r\n}\r\n.container-img:hover .images .overlay{\r\n    transform:scale(1.2);\r\n    opacity: 5;\r\n}\r\n/* Navigation */\r\n.nav{\r\n    margin: 26px O;\r\n    display: flex;\r\n    color: white;\r\n    font-weight: bold;\r\n    font-size: 1.rem;\r\n    margin-right: 10px;\r\n    padding: 10px;\r\n    position: relative;\r\n    left: 0px;\r\n    margin-right: 0%;\r\n    right: Opx;\r\n    text-align: right;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    background-color:  rgba(0, 0, 0, 0.932);\r\n}\r\n.uls\r\n{\r\n    margin-left: 10%;\r\n    color: white;\r\n    text-align: left;\r\n    margin-bottom: 2%;\r\n}\r\n.lis\r\n{\r\n    margin: 0%;\r\n}\r\n.nav .ul{\r\n    list-style: none;\r\n}\r\n.nav .li{\r\n    display: inline-block;\r\n    margin-right: 40px ;\r\n}\r\n.div_lien\r\n{\r\n    margin-top: 1%;\r\n    max-width: 100%;\r\n\r\n}\r\n.section\r\n{\r\n    padding-bottom: 2%;\r\n}\r\n.hr {\r\n    border: 1px solid rgba(153, 153, 153, 0.795);;\r\n    position: relative;\r\n    margin-left: 10%;\r\n    margin-right:10%\r\n\r\n\r\n\r\n  }\r\n.link\r\n{\r\n    color: white;\r\n    text-decoration: none;\r\n}\r\n.link:hover\r\n{\r\n    color:rgba(153, 153, 153, 0.795);\r\n    border-radius: 20%;\r\n    border-bottom: 5px solid rgba(153, 153, 153, 0.795);\r\n\r\n}\r\n/* Footer*/\r\n.footer{\r\n\r\n    background-color: rgba(0, 0, 0, 0.932);\r\n    height: 120px;\r\n    padding-left: 20%;\r\n    padding-top: 15px;\r\n}\r\n.nav_footer{\r\n    text-align: center;\r\n    display: inline-block;\r\n}\r\n.ul_footer{\r\n    list-style-type: none;\r\n}\r\n.li_footer{\r\n    display: inline-block;\r\n    list-style-type: none;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    color: white;\r\n    margin-right: 60px;\r\n    max-width: 100%;\r\n\r\n}\r\n.Slider{\r\n    padding: 10px ;\r\n    margin-bottom: 5px;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n\r\n    font-family: 'Poppins' sans-serif;\r\n    margin: 0%;\r\n}\r\n .body{\r\n    text-align: center;\r\n    background-color: rgba(0, 0, 0, 0.87);\r\n}\r\n.header\r\n{\r\n    background-color: rgb(7, 7, 7);\r\n    margin-top: 0%;\r\n    margin-right: 0%;\r\n    height: 100px;\r\n    left: 0px;\r\n    right: Opx;\r\n}\r\n.nomJournal\r\n{\r\n    font-weight: bold;\r\n    text-decoration: none;\r\n    font-size: 1.5rem;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    top: 10px;\r\n    color: white;\r\n}\r\n.conneter\r\n{\r\n    font-weight: bold;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    width: 100px;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    top: 10px;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.abonner\r\n{\r\n    font-weight: bold;\r\n    background-color:  rgba(153, 153, 153, 0.795);\r\n    border-radius: 20px;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    width: 150px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    font-size: 0.9rem;\r\n    padding: 5px;\r\n    color: white;\r\n}\r\n.items{\r\n    display: flex;\r\n    position: relative;\r\n    align-items: center;\r\n    justify-content: space-evenly;\r\n    list-style: none;\r\n    top: 15px;\r\n}\r\n.CustomS{\r\n    width: auto;\r\n}\r\n.p {\r\n    color: white;\r\n    text-align: justify;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    margin-left: 10%;\r\n    margin-right: 40%;\r\n}\r\n.p_img{\r\n    color: white;\r\n    text-align: justify;\r\n    margin-top: 10px;\r\n   float: right;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    overflow: auto;\r\n    width: 250px;\r\n    left: 10%;\r\n    height: auto;\r\n    margin-right:auto;\r\n\r\n\r\n}\r\n\r\n\r\n.plusInfos\r\n{\r\n    color: rgba(153, 153, 153, 0.795);\r\n    font-weight: bold;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n}\r\n.plusInfos:hover\r\n{\r\n    color: white;\r\n}\r\n\r\n.h6{\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    color:rgba(153, 153, 153, 0.795);\r\n    font-size: 1.0rem;\r\n    margin-top: 5%;\r\n    margin-left: 10%;\r\n    margin-right: 10%;\r\n    text-align: left;\r\n}\r\n.h{\r\n    font-size: 2.0rem;\r\n    margin-top: 0%;\r\n    margin-left: 3%;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    text-align: justify;\r\n    text-align: left;\r\n}\r\n/*all images*/\r\n.container-img{\r\n    display:block;\r\n    overflow:hidden;\r\n\r\n}\r\n.container-img .image {\r\n    transition: all 0.2s;\r\n}\r\n.row{\r\n    display: inline-block;\r\n}\r\n\r\n.li_img{\r\n    display: inline-block;\r\n    list-style-type: none;\r\n    margin-right: 100px;\r\n    max-width: 100%;\r\n\r\n}\r\n.ul_img{\r\n    margin-top: 25px;\r\n    margin-bottom: 25px;\r\n    list-style-type: none;\r\n}\r\n.container-img  .images{\r\n    transition: all 0.2s;\r\n}\r\n.container-img:hover .image {\r\n    transform:scale(1.2);\r\n}\r\n.container-img:hover .images {\r\n    transform:scale(1.2);\r\n    opacity: 2;\r\n}\r\n\r\n\r\n.image{\r\n    display: flex;\r\n    margin-top: 1%;\r\n    margin-bottom: 1%;\r\n    margin-left: 12%;\r\n    width: 700px;\r\n    height: 372px;\r\n    left: 1%;\r\n    margin-right: 1%;\r\n    border-radius: 4px;\r\n    max-width: 100%;\r\n\r\n}\r\n.images{\r\n\r\n    display: flex;\r\n    margin-top: 2%;\r\n    margin-left: 12%;\r\n    width: 300px;\r\n    height: 172px;\r\n    left: 10%;\r\n    margin-right: 1%;\r\n    border-radius: 4px;\r\n    max-width: 100%;\r\n\r\n}\r\n\r\n\r\n.container-img:hover .image {\r\n    transform:scale(1.2);\r\n}\r\n.container-img:hover .images .overlay{\r\n    transform:scale(1.2);\r\n    opacity: 5;\r\n}\r\n/* Navigation */\r\n.nav{\r\n    margin: 26px O;\r\n    display: flex;\r\n    color: white;\r\n    font-weight: bold;\r\n    font-size: 1.rem;\r\n    margin-right: 10px;\r\n    padding: 10px;\r\n    position: relative;\r\n    left: 0px;\r\n    margin-right: 0%;\r\n    right: Opx;\r\n    text-align: right;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    background-color:  rgba(0, 0, 0, 0.932);\r\n}\r\n.uls\r\n{\r\n    margin-left: 10%;\r\n    color: white;\r\n    text-align: left;\r\n    margin-bottom: 2%;\r\n}\r\n.lis\r\n{\r\n    margin: 0%;\r\n}\r\n.nav, .ul{\r\n    list-style: none;\r\n}\r\n.nav .li{\r\n    display: inline-block;\r\n    margin-right: 40px ;\r\n}\r\n.div_lien\r\n{\r\n    margin-top: 1%;\r\n    max-width: 100%;\r\n\r\n}\r\n.section\r\n{\r\n    padding-bottom: 2%;\r\n}\r\n.hr {\r\n    border: 1px solid rgba(153, 153, 153, 0.795);;\r\n    position: relative;\r\n    margin-left: 10%;\r\n    margin-right:10%\r\n\r\n\r\n\r\n  }\r\n.link\r\n{\r\n    color: white;\r\n    text-decoration: none;\r\n}\r\n.link:hover\r\n{\r\n    color:rgba(153, 153, 153, 0.795);\r\n    border-radius: 20%;\r\n    border-bottom: 5px solid rgba(153, 153, 153, 0.795);\r\n\r\n}\r\n/* Footer*/\r\n.footer{\r\n\r\n    background-color: rgba(0, 0, 0, 0.932);\r\n    height: 120px;\r\n    padding-left: 20%;\r\n    padding-top: 15px;\r\n}\r\n.nav_footer{\r\n    text-align: center;\r\n    display: inline-block;\r\n}\r\n.ul_footer{\r\n    list-style-type: none;\r\n}\r\n.li_footer{\r\n    display: inline-block;\r\n    list-style-type: none;\r\n    font-family: \"montserrat-bold\", sans-serif;\r\n    color: white;\r\n    margin-right: 60px;\r\n    max-width: 100%;\r\n\r\n}\r\n.Slider{\r\n    padding: 10px ;\r\n    margin-bottom: 5px;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
