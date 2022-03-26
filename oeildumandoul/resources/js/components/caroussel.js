@@ -19,7 +19,7 @@ const Slider = () => {
                     <Carousel.Item interval={500}>
                         <img
                         className="d-block w-100"
-                        src="https://pixabay.com/get/gd62889c0535a40117ccd9bb2b70a219cf2285efec4ac080371f6496eb91792516aeabe88a5f176d48a633fd045cbf848ab4ab258d18be29d971a8934eafbf1ca6aec577687d8476bc85b6f70ce93cae2_640.jpg"
+                        src="https://cdn.pixabay.com/photo/2021/09/24/10/00/chick-6652163__340.jpg"
                         alt="Second slide"
                         />
                         <Carousel.Caption>
@@ -30,7 +30,7 @@ const Slider = () => {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://pixabay.com/get/gd62889c0535a40117ccd9bb2b70a219cf2285efec4ac080371f6496eb91792516aeabe88a5f176d48a633fd045cbf848ab4ab258d18be29d971a8934eafbf1ca6aec577687d8476bc85b6f70ce93cae2_640.jpg"
+                        src="https://cdn.pixabay.com/photo/2022/02/25/17/47/trees-7034574__340.jpg"
                         alt="Third slide"
                         />
                         <Carousel.Caption>

@@ -1,4 +1,5 @@
  import React from "react";
+ import Navbar from 'react-bootstrap/Navbar';
  import "../pages/app.css";
  import { ReactDOM } from "react";
  import { LinkHTMLAttributes } from "react";
@@ -34,6 +35,9 @@
                         </li>
                         <li className="li">
                             <Link className="link" to="../pages" >Culture</Link>
+                        </li>
+                         <li className="li">
+                            <Link className="link" to="../pages" >Vidéos</Link>
                         </li>
                         <li className="li">
                             <Link className="link" to="../pages" >Divers</Link>
