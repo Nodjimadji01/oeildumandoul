@@ -16,8 +16,10 @@ function Home() {
             <Navigation></Navigation>
 
             <div className="body">
+                <div className='CustomS'>
+                    <Slider></Slider>
+                </div>
 
-              <Slider></Slider>
                 <section className="section">
                     <article className="article">
                         <div className=''>
@@ -50,10 +52,6 @@ function Home() {
                             <di>
                               <hr className="hr"   />
                             </di>
-
-
-
-
 
                                 <div  className='row'>
                                     <ul className='ul_img' >

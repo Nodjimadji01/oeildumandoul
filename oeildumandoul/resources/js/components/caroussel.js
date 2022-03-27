@@ -19,7 +19,7 @@ const Slider = () => {
                     <Carousel.Item interval={500}>
                         <img
                         className="d-block w-100"
-                        src="https://cdn.pixabay.com/photo/2021/09/24/10/00/chick-6652163__340.jpg"
+                        src="https://cdn.pixabay.com/photo/2016/09/21/04/46/barley-field-1684052_960_720.jpg"
                         alt="Second slide"
                         />
                         <Carousel.Caption>
@@ -30,7 +30,7 @@ const Slider = () => {
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
-                        src="https://cdn.pixabay.com/photo/2022/02/25/17/47/trees-7034574__340.jpg"
+                        src="https://cdn.pixabay.com/photo/2016/11/30/15/00/apples-1872997_960_720.jpg"
                         alt="Third slide"
                         />
                         <Carousel.Caption>
