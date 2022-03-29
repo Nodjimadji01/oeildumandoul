@@ -68,6 +68,13 @@ function Home() {
                                                     <p className='p_img' >ou à l'occasion précisés. Après avoir lancé des idées sur les solutions possibles, l'équipe de projet expose en détail chacune de ces solution</p>
                                             </div>
                                         </li>
+                                        <li className='li_img' >
+
+                                        <div className="container-img ">
+                                                    <img className='images' src="https://s.rfi.fr/media/display/be533de2-a24c-11ec-a39f-005056bfb2b6/w:388/p:16x9/AP21330450073160.webp" alt=""></img>
+                                                    <p className='p_img' >ou à l'occasion précisés. Après avoir lancé des idées sur les solutions possibles, l'équipe de projet expose en détail chacune de ces solution</p>
+                                            </div>
+                                        </li>
 
                                     </ul>
                                     <ul className='ul_img' >
@@ -79,6 +86,13 @@ function Home() {
                                             </div>
                                         </li>
                                         <li className='li_img' >
+
+                                            <div className="container-img ">
+                                                        <img className='images' src="https://s.rfi.fr/media/display/be533de2-a24c-11ec-a39f-005056bfb2b6/w:388/p:16x9/AP21330450073160.webp" alt=""></img>
+                                                        <p className='p_img' >ou à l'occasion précisés. Après avoir lancé des idées sur les solutions possibles, l'équipe de projet expose en détail chacune de ces solution</p>
+                                                </div>
+                                            </li>
+                                                                                    <li className='li_img' >
                                         <div className="container-img ">
                                                     <img className='images' src="https://s.france24.com/media/display/0bfb4c04-9980-11ec-820a-005056a90284/w:246/p:16x9/main-dossier-guerre-ukraine-1920x1080.webp" alt=""></img>
                                                     <p className='p_img' >ou à l'occasion précisés. Après avoir lancé des idées sur les solutions possibles, l'équipe de projet expose en détail chacune de ces solution</p>
@@ -86,13 +100,20 @@ function Home() {
                                         </li>
 
                                     </ul>
-                                    <ul className='ul_img' >
+                                    {/* <ul className='ul_img' >
                                         <li className='li_img' >
                                         <div className="container-img ">
                                                     <img className='images' src="https://s.france24.com/media/display/3274455a-105f-11e9-88a4-005056a964fe/w:388/p:16x9/main-imagebentalha.webp" alt=""></img>
                                                     <p className='p_img' >ou à l'occasion précisés. Après avoir lancé des idées sur les solutions possibles, l'équipe de projet expose en détail chacune de ces solution</p>
                                             </div>
                                         </li>
+                                            <li className='li_img' >
+
+                                                <div className="container-img ">
+                                                            <img className='images' src="https://s.rfi.fr/media/display/be533de2-a24c-11ec-a39f-005056bfb2b6/w:388/p:16x9/AP21330450073160.webp" alt=""></img>
+                                                            <p className='p_img' >ou à l'occasion précisés. Après avoir lancé des idées sur les solutions possibles, l'équipe de projet expose en détail chacune de ces solution</p>
+                                                    </div>
+                                                </li>
                                         <li className='li_img' >
                                         <div className="container-img ">
                                                     <img className='images' src="https://s.france24.com/media/display/c4cea0c8-1099-11e9-b6cf-005056bff430/w:1024/p:16x9/main_infog_ps_0.webp" alt=""></img>
@@ -100,7 +121,7 @@ function Home() {
                                             </div>
                                         </li>
 
-                                    </ul>
+                                    </ul> */}
                                   </div>
                                   <di>
                               <hr className="hr"   />
