@@ -6,10 +6,29 @@
 
  const Navigation = () => {
     return (
-        <div>
-            <Navbar collapseOnSelect  expand="lg"  bg="dark" variant="dark" >
+        <div className="navigation" >
+
+             <Navbar bg="black" fixed="">
                 <Container>
-                    <Navbar.Brand href="/" >Home</Navbar.Brand>
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav className="me-auto">
+                                <Nav.Link href="#features"  style={{ color: 'white' }} ><a href="/" className="nomJournal">L'oeil<a style={ { color : 'blue'}}>du</a>Mandoul</a></Nav.Link>
+                                </Nav>
+                            <Nav>
+                            <Nav.Link href="#deets"  ><a className="abonner">ABONNEZ-VOUS</a></Nav.Link>
+                                <Nav.Link href="#deets"  ><a href="../pages/Notfound"  className="conneter">Se connecter</a></Nav.Link>
+                                {/* <Nav.Link eventKey={2} href="#memes">
+                                    Dank memes
+                                </Nav.Link> */}
+                            </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+            <br/>
+            <Navbar fixed="" collapseOnSelect  expand="lg"  bg="dark" variant="dark" >
+                <Container>
+                    {/* <Navbar.Brand href="/" >Home</Navbar.Brand> */}
+
                     <Navbar.Toggle  aria-aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav" >
                         <Nav className="me-auto">
@@ -25,6 +44,12 @@
                              <Nav.Link href="/">
                                 Education
                             </Nav.Link>
+                            <Nav.Link href="/">
+                               Science
+                            </Nav.Link>
+                            <Nav.Link href="/">
+                               Divers
+                            </Nav.Link>
                         </Nav>
                         <Nav>
                             {/* <Nav.Link>More deets</Nav.Link> */}
@@ -36,6 +61,8 @@
 
                 </Container>
             </Navbar>
+
+
 
         </div>
    );

@@ -10,12 +10,13 @@
     text-align: center;
     background-color: rgba(0, 0, 0, 0.87);
 }
+
 .header
 {
     background-color: rgb(7, 7, 7);
     margin-top: 0%;
     margin-right: 0%;
-    height: 100px;
+    height: auto;
     left: 0px;
     right: Opx;
 }
@@ -23,10 +24,13 @@
 {
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
     font-size: 1.5rem;
     font-family: "montserrat-bold", sans-serif;
     top: 10px;
     color: white;
+
+    width: 100%;
 }
 .conneter
 {
@@ -45,7 +49,7 @@
     background-color:  rgba(153, 153, 153, 0.795);
     border-radius: 20px;
     font-family: "montserrat-bold", sans-serif;
-    width: 150px;
+    width: 100%;
     text-align: center;
     text-decoration: none;
     font-size: 0.9rem;

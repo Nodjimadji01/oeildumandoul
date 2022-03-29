@@ -13,7 +13,7 @@ function Home() {
     return (
         <div className='home' >
             <Header></Header>
-            <Navigation></Navigation>
+            {/* <Navigation></Navigation> */}
 
             <div className="body">
                 <div className='CustomS'>

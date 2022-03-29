@@ -76,3 +76,12 @@
 #9 /home/parfi7zhy/Bureau/Double/oeildumandoul/oeildumandoul/oeildumandoul/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
 #10 {main}
 "} 
+[2022-03-29 18:30:22] local.ERROR: Command "watch" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"watch\" is not defined. at /home/parfi7zhy/Bureau/Double/oeildumandoul/oeildumandoul/oeildumandoul/vendor/symfony/console/Application.php:682)
+[stacktrace]
+#0 /home/parfi7zhy/Bureau/Double/oeildumandoul/oeildumandoul/oeildumandoul/vendor/symfony/console/Application.php(255): Symfony\\Component\\Console\\Application->find()
+#1 /home/parfi7zhy/Bureau/Double/oeildumandoul/oeildumandoul/oeildumandoul/vendor/symfony/console/Application.php(167): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/parfi7zhy/Bureau/Double/oeildumandoul/oeildumandoul/oeildumandoul/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#3 /home/parfi7zhy/Bureau/Double/oeildumandoul/oeildumandoul/oeildumandoul/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /home/parfi7zhy/Bureau/Double/oeildumandoul/oeildumandoul/oeildumandoul/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 

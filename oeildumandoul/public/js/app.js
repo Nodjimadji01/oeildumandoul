@@ -4233,36 +4233,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 var Header = function Header() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("header", {
     className: "header",
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("ul", {
-      className: "items",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("a", {
-          href: "/",
-          className: "nomJournal",
-          children: ["L'oeil", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-            style: {
-              color: 'blue'
-            },
-            children: "du"
-          }), "Mandoul"]
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-          href: "../pages/Notfound",
-          className: "conneter",
-          children: "Se connecter"
-        })
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("li", {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
-          className: "abonner",
-          children: "ABONNEZ-VOUS"
-        })
-      })]
-    })
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_Navigation__WEBPACK_IMPORTED_MODULE_0__["default"], {})
   });
 };
 
@@ -4297,17 +4271,58 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Navigation = function Navigation() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+    className: "navigation",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      bg: "black",
+      fixed: "",
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Collapse, {
+          id: "responsive-navbar-nav",
+          children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], {
+            className: "me-auto",
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"].Link, {
+              href: "#features",
+              style: {
+                color: 'white'
+              },
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("a", {
+                href: "/",
+                className: "nomJournal",
+                children: ["L'oeil", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                  style: {
+                    color: 'blue'
+                  },
+                  children: "du"
+                }), "Mandoul"]
+              })
+            })
+          }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], {
+            children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"].Link, {
+              href: "#deets",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                className: "abonner",
+                children: "ABONNEZ-VOUS"
+              })
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"].Link, {
+              href: "#deets",
+              children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("a", {
+                href: "../pages/Notfound",
+                className: "conneter",
+                children: "Se connecter"
+              })
+            })]
+          })]
+        })
+      })
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      fixed: "",
       collapseOnSelect: true,
       expand: "lg",
       bg: "dark",
       variant: "dark",
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Brand, {
-          href: "/",
-          children: "Home"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Toggle, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Toggle, {
           "aria-aria-controls": "responsive-navbar-nav"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_4__["default"].Collapse, {
           id: "responsive-navbar-nav",
@@ -4325,6 +4340,12 @@ var Navigation = function Navigation() {
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"].Link, {
               href: "/",
               children: "Education"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"].Link, {
+              href: "/",
+              children: "Science"
+            }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"].Link, {
+              href: "/",
+              children: "Divers"
             })]
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"], {
             children: ["\xA0", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(react_bootstrap__WEBPACK_IMPORTED_MODULE_6__["default"].Link, {
@@ -4337,7 +4358,7 @@ var Navigation = function Navigation() {
           })]
         })]
       })
-    })
+    })]
   });
 };
 
@@ -4559,7 +4580,7 @@ __webpack_require__.r(__webpack_exports__);
 function Home() {
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
     className: "home",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Navigation__WEBPACK_IMPORTED_MODULE_7__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Header__WEBPACK_IMPORTED_MODULE_4__["default"], {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
       className: "body",
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)("div", {
         className: "CustomS",
@@ -5632,7 +5653,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_laravel_mix_node_modules_css_loader_
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap);"]);
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Just+Another+Hand);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\n\n    font-family: 'Poppins' sans-serif;\n    margin: 0%;\n}\n .body{\n    text-align: center;\n    background-color: rgba(0, 0, 0, 0.87);\n}\n.header\n{\n    background-color: rgb(7, 7, 7);\n    margin-top: 0%;\n    margin-right: 0%;\n    height: 100px;\n    left: 0px;\n    right: Opx;\n}\n.nomJournal\n{\n    font-weight: bold;\n    text-decoration: none;\n    font-size: 1.5rem;\n    font-family: \"montserrat-bold\", sans-serif;\n    top: 10px;\n    color: white;\n}\n.conneter\n{\n    font-weight: bold;\n    font-family: \"montserrat-bold\", sans-serif;\n    width: 100px;\n    text-decoration: none;\n    font-size: 0.9rem;\n    top: 10px;\n    padding: 5px;\n    color: white;\n}\n.abonner\n{\n    font-weight: bold;\n    background-color:  rgba(153, 153, 153, 0.795);\n    border-radius: 20px;\n    font-family: \"montserrat-bold\", sans-serif;\n    width: 150px;\n    text-align: center;\n    text-decoration: none;\n    font-size: 0.9rem;\n    padding: 5px;\n    color: white;\n}\n.items{\n    display: flex;\n    position: relative;\n    align-items: center;\n    justify-content: space-evenly;\n    list-style: none;\n    top: 15px;\n}\n.CustomS{\n    width: auto;\n}\n.p {\n    color: white;\n    text-align: justify;\n    font-family: \"montserrat-bold\", sans-serif;\n    margin-left: 10%;\n    margin-right: 40%;\n}\n.p_img{\n    color: white;\n    text-align: justify;\n    margin-top: 10px;\n   float: right;\n    font-family: \"montserrat-bold\", sans-serif;\n    overflow: auto;\n    width: 250px;\n    left: 10%;\n    height: auto;\n    margin-right:auto;\n\n\n}\n\n\n.plusInfos\n{\n    color: rgba(153, 153, 153, 0.795);\n    font-weight: bold;\n    font-family: \"montserrat-bold\", sans-serif;\n}\n.plusInfos:hover\n{\n    color: white;\n}\n\n.h6{\n    font-family: \"montserrat-bold\", sans-serif;\n    color:rgba(153, 153, 153, 0.795);\n    font-size: 1.0rem;\n    margin-top: 5%;\n    margin-left: 10%;\n    margin-right: 10%;\n    text-align: left;\n}\n.h{\n    font-size: 2.0rem;\n    margin-top: 0%;\n    margin-left: 3%;\n    font-family: \"montserrat-bold\", sans-serif;\n    text-align: justify;\n    text-align: left;\n}\n/*all images*/\n.container-img{\n    display:block;\n    overflow:hidden;\n\n}\n.container-img .image {\n    transition: all 0.2s;\n}\n.row{\n    display: inline-block;\n}\n\n.li_img{\n    display: inline-block;\n    list-style-type: none;\n    margin-right: 100px;\n    max-width: 100%;\n\n}\n.ul_img{\n    margin-top: 25px;\n    margin-bottom: 25px;\n    list-style-type: none;\n}\n.container-img  .images{\n    transition: all 0.2s;\n}\n.container-img:hover .image {\n    transform:scale(1.2);\n}\n.container-img:hover .images {\n    transform:scale(1.2);\n    opacity: 2;\n}\n\n\n.image{\n    display: flex;\n    margin-top: 1%;\n    margin-bottom: 1%;\n    margin-left: 12%;\n    width: 700px;\n    height: 372px;\n    left: 1%;\n    margin-right: 1%;\n    border-radius: 4px;\n    max-width: 100%;\n\n}\n.images{\n\n    display: flex;\n    margin-top: 2%;\n    margin-left: 12%;\n    width: 300px;\n    height: 172px;\n    left: 10%;\n    margin-right: 1%;\n    border-radius: 4px;\n    max-width: 100%;\n\n}\n\n\n.container-img:hover .image {\n    transform:scale(1.2);\n}\n.container-img:hover .images .overlay{\n    transform:scale(1.2);\n    opacity: 5;\n}\n/* Navigation */\n.nav{\n    margin: 26px O;\n    display: flex;\n    color: white;\n    font-weight: bold;\n    font-size: 1.rem;\n    margin-right: 10px;\n    padding: 10px;\n    position: relative;\n    left: 0px;\n    margin-right: 0%;\n    right: Opx;\n    text-align: right;\n    font-family: \"montserrat-bold\", sans-serif;\n    background-color:  rgba(0, 0, 0, 0.932);\n}\n.uls\n{\n    margin-left: 10%;\n    color: white;\n    text-align: left;\n    margin-bottom: 2%;\n}\n.lis\n{\n    margin: 0%;\n}\n.nav, .ul{\n    list-style: none;\n}\n.nav .li{\n    display: inline-block;\n    margin-right: 40px ;\n}\n.div_lien\n{\n    margin-top: 1%;\n    max-width: 100%;\n\n}\n.section\n{\n    padding-bottom: 2%;\n}\n.hr {\n    border: 1px solid rgba(153, 153, 153, 0.795);;\n    position: relative;\n    margin-left: 10%;\n    margin-right:10%\n\n\n\n  }\n.link\n{\n    color: white;\n    text-decoration: none;\n}\n.link:hover\n{\n    color:rgba(153, 153, 153, 0.795);\n    border-radius: 20%;\n    border-bottom: 5px solid rgba(153, 153, 153, 0.795);\n\n}\n/* Footer*/\n.footer{\n\n    background-color: rgba(0, 0, 0, 0.932);\n    height: 120px;\n    padding-left: 20%;\n    padding-top: 15px;\n}\n.nav_footer{\n    text-align: center;\n    display: inline-block;\n}\n.ul_footer{\n    list-style-type: none;\n}\n.li_footer{\n    display: inline-block;\n    list-style-type: none;\n    font-family: \"montserrat-bold\", sans-serif;\n    color: white;\n    margin-right: 60px;\n    max-width: 100%;\n\n}\n.Slider{\n    padding: 10px ;\n    margin-bottom: 5px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\n\n    font-family: 'Poppins' sans-serif;\n    margin: 0%;\n}\n .body{\n    text-align: center;\n    background-color: rgba(0, 0, 0, 0.87);\n}\n\n.header\n{\n    background-color: rgb(7, 7, 7);\n    margin-top: 0%;\n    margin-right: 0%;\n    height: auto;\n    left: 0px;\n    right: Opx;\n}\n.nomJournal\n{\n    font-weight: bold;\n    text-decoration: none;\n    text-align: center;\n    font-size: 1.5rem;\n    font-family: \"montserrat-bold\", sans-serif;\n    top: 10px;\n    color: white;\n\n    width: 100%;\n}\n.conneter\n{\n    font-weight: bold;\n    font-family: \"montserrat-bold\", sans-serif;\n    width: 100px;\n    text-decoration: none;\n    font-size: 0.9rem;\n    top: 10px;\n    padding: 5px;\n    color: white;\n}\n.abonner\n{\n    font-weight: bold;\n    background-color:  rgba(153, 153, 153, 0.795);\n    border-radius: 20px;\n    font-family: \"montserrat-bold\", sans-serif;\n    width: 100%;\n    text-align: center;\n    text-decoration: none;\n    font-size: 0.9rem;\n    padding: 5px;\n    color: white;\n}\n.items{\n    display: flex;\n    position: relative;\n    align-items: center;\n    justify-content: space-evenly;\n    list-style: none;\n    top: 15px;\n}\n.CustomS{\n    width: auto;\n}\n.p {\n    color: white;\n    text-align: justify;\n    font-family: \"montserrat-bold\", sans-serif;\n    margin-left: 10%;\n    margin-right: 40%;\n}\n.p_img{\n    color: white;\n    text-align: justify;\n    margin-top: 10px;\n   float: right;\n    font-family: \"montserrat-bold\", sans-serif;\n    overflow: auto;\n    width: 250px;\n    left: 10%;\n    height: auto;\n    margin-right:auto;\n\n\n}\n\n\n.plusInfos\n{\n    color: rgba(153, 153, 153, 0.795);\n    font-weight: bold;\n    font-family: \"montserrat-bold\", sans-serif;\n}\n.plusInfos:hover\n{\n    color: white;\n}\n\n.h6{\n    font-family: \"montserrat-bold\", sans-serif;\n    color:rgba(153, 153, 153, 0.795);\n    font-size: 1.0rem;\n    margin-top: 5%;\n    margin-left: 10%;\n    margin-right: 10%;\n    text-align: left;\n}\n.h{\n    font-size: 2.0rem;\n    margin-top: 0%;\n    margin-left: 3%;\n    font-family: \"montserrat-bold\", sans-serif;\n    text-align: justify;\n    text-align: left;\n}\n/*all images*/\n.container-img{\n    display:block;\n    overflow:hidden;\n\n}\n.container-img .image {\n    transition: all 0.2s;\n}\n.row{\n    display: inline-block;\n}\n\n.li_img{\n    display: inline-block;\n    list-style-type: none;\n    margin-right: 100px;\n    max-width: 100%;\n\n}\n.ul_img{\n    margin-top: 25px;\n    margin-bottom: 25px;\n    list-style-type: none;\n}\n.container-img  .images{\n    transition: all 0.2s;\n}\n.container-img:hover .image {\n    transform:scale(1.2);\n}\n.container-img:hover .images {\n    transform:scale(1.2);\n    opacity: 2;\n}\n\n\n.image{\n    display: flex;\n    margin-top: 1%;\n    margin-bottom: 1%;\n    margin-left: 12%;\n    width: 700px;\n    height: 372px;\n    left: 1%;\n    margin-right: 1%;\n    border-radius: 4px;\n    max-width: 100%;\n\n}\n.images{\n\n    display: flex;\n    margin-top: 2%;\n    margin-left: 12%;\n    width: 300px;\n    height: 172px;\n    left: 10%;\n    margin-right: 1%;\n    border-radius: 4px;\n    max-width: 100%;\n\n}\n\n\n.container-img:hover .image {\n    transform:scale(1.2);\n}\n.container-img:hover .images .overlay{\n    transform:scale(1.2);\n    opacity: 5;\n}\n/* Navigation */\n.nav{\n    margin: 26px O;\n    display: flex;\n    color: white;\n    font-weight: bold;\n    font-size: 1.rem;\n    margin-right: 10px;\n    padding: 10px;\n    position: relative;\n    left: 0px;\n    margin-right: 0%;\n    right: Opx;\n    text-align: right;\n    font-family: \"montserrat-bold\", sans-serif;\n    background-color:  rgba(0, 0, 0, 0.932);\n}\n.uls\n{\n    margin-left: 10%;\n    color: white;\n    text-align: left;\n    margin-bottom: 2%;\n}\n.lis\n{\n    margin: 0%;\n}\n.nav, .ul{\n    list-style: none;\n}\n.nav .li{\n    display: inline-block;\n    margin-right: 40px ;\n}\n.div_lien\n{\n    margin-top: 1%;\n    max-width: 100%;\n\n}\n.section\n{\n    padding-bottom: 2%;\n}\n.hr {\n    border: 1px solid rgba(153, 153, 153, 0.795);;\n    position: relative;\n    margin-left: 10%;\n    margin-right:10%\n\n\n\n  }\n.link\n{\n    color: white;\n    text-decoration: none;\n}\n.link:hover\n{\n    color:rgba(153, 153, 153, 0.795);\n    border-radius: 20%;\n    border-bottom: 5px solid rgba(153, 153, 153, 0.795);\n\n}\n/* Footer*/\n.footer{\n\n    background-color: rgba(0, 0, 0, 0.932);\n    height: 120px;\n    padding-left: 20%;\n    padding-top: 15px;\n}\n.nav_footer{\n    text-align: center;\n    display: inline-block;\n}\n.ul_footer{\n    list-style-type: none;\n}\n.li_footer{\n    display: inline-block;\n    list-style-type: none;\n    font-family: \"montserrat-bold\", sans-serif;\n    color: white;\n    margin-right: 60px;\n    max-width: 100%;\n\n}\n.Slider{\n    padding: 10px ;\n    margin-bottom: 5px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
